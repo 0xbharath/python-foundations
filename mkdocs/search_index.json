@@ -1,0 +1,564 @@
+{
+    "docs": [
+        {
+            "location": "/index.html", 
+            "text": "Python: Foundations", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/index.html#python-foundations", 
+            "text": "", 
+            "title": "Python: Foundations"
+        }, 
+        {
+            "location": "/license/index.html", 
+            "text": "License \n Attributions\n\n\n\n\n\n\n\n\n\nExcept as otherwise noted, the content of this workshop is licensed under the \nCreative Commons Attribution-Share Alike 4.0 International License\n , and code samples are licensed under the \nApache 2.0 License\n .\n\n\nPortions of this workshop are reproduced/modified based on work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License \nhttps://developers.google.com/edu/python/\n.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/license/index.html#license-attributions", 
+            "text": "Except as otherwise noted, the content of this workshop is licensed under the  Creative Commons Attribution-Share Alike 4.0 International License  , and code samples are licensed under the  Apache 2.0 License  .  Portions of this workshop are reproduced/modified based on work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License  https://developers.google.com/edu/python/ .", 
+            "title": "License &amp; Attributions"
+        }, 
+        {
+            "location": "/bigger_picture/index.html", 
+            "text": "", 
+            "title": "Bigger picture"
+        }, 
+        {
+            "location": "/speakers/index.html", 
+            "text": "Speakers\n\n\nBharath\n\n\nWebpage  \n: \nDisruptivelabs.in\n\nTwitter\n \n  \n  : \ntwitter.com/yamakira_\n\nGithub \n \n   :\n\n\nAbhinav\n\n\nWebpage  \n: \n\nTwitter\n \n  \n  : \ntwitter.com/geek_ji\n\nGithub \n \n   :", 
+            "title": "Speakers"
+        }, 
+        {
+            "location": "/speakers/index.html#speakers", 
+            "text": "", 
+            "title": "Speakers"
+        }, 
+        {
+            "location": "/speakers/index.html#bharath", 
+            "text": "Webpage   :  Disruptivelabs.in \nTwitter        :  twitter.com/yamakira_ \nGithub       :", 
+            "title": "Bharath"
+        }, 
+        {
+            "location": "/speakers/index.html#abhinav", 
+            "text": "Webpage   :  \nTwitter        :  twitter.com/geek_ji \nGithub       :", 
+            "title": "Abhinav"
+        }, 
+        {
+            "location": "/workshop_settings/index.html", 
+            "text": "Settings\n\n\nThe Goal\n\n\n\n\nCover enough Python to get kick started with the series.\n\n\nEnable you to explore other Pythonic stuff on your own.\n\n\nHave fun while programming!\n\n\n\n\nQuestions\n\n\n\n\nRTFM\n\n\nAsk them when you got them.\n\n\nIt\ns easy to get lost so \ntry not to be on auto pilot mode\n.\n\n\nTry it before you ask!\n\n\npythonhumla@gmail.com\n\n\n\n\nWorkshop\n\n\n\n\nMile wide \n meter deep!\n\n\nGeneralist approach.\n\n\nMix of theory \n exercises.\n\n\nA little bit of programming experience is preferred but not necessarily in Python.\n\n\nPython 2.7.x\n\n\n\n\nFor more on Python 2.x vs 3.x \nPython 2.x vs 3.x\n\n\n\n\n\n\n\n\nFood for thought:\n\n \nWhich one might happen first:\n\n        \n \n Complete IPv6 deployment\n\n        \n \n Python 3.x adaptation\n\n        \n \n Half life 3??", 
+            "title": "Workshop settings"
+        }, 
+        {
+            "location": "/workshop_settings/index.html#settings", 
+            "text": "", 
+            "title": "Settings"
+        }, 
+        {
+            "location": "/workshop_settings/index.html#the-goal", 
+            "text": "Cover enough Python to get kick started with the series.  Enable you to explore other Pythonic stuff on your own.  Have fun while programming!", 
+            "title": "The Goal"
+        }, 
+        {
+            "location": "/workshop_settings/index.html#questions", 
+            "text": "RTFM  Ask them when you got them.  It s easy to get lost so  try not to be on auto pilot mode .  Try it before you ask!  pythonhumla@gmail.com", 
+            "title": "Questions"
+        }, 
+        {
+            "location": "/workshop_settings/index.html#workshop", 
+            "text": "Mile wide   meter deep!  Generalist approach.  Mix of theory   exercises.  A little bit of programming experience is preferred but not necessarily in Python.  Python 2.7.x   For more on Python 2.x vs 3.x  Python 2.x vs 3.x     Food for thought: \n  Which one might happen first: \n            Complete IPv6 deployment \n            Python 3.x adaptation \n            Half life 3??", 
+            "title": "Workshop"
+        }, 
+        {
+            "location": "/language_intro/index.html", 
+            "text": "Trivia\n\n\n\n\nCreated by Guido Van Rossum in 1991.\n\n\nTremendous community support.\n\n\nLots of momentum in Pen Testing industry(Scapy, Sulley, Volataility, Impacket\n other tools, A few dedicated courses, Half a dozen useful books)\n\n\n\n\n\n\nLanguage intro\n\n\n\n\nPython is an interpreted, multi-paradigm language.\n\n\nPython has \nno compile-time type checking\n of the source code. Python tracks the types of all values at runtime and flags code that does not make sense as it runs.\n\n\nPython is a scripting language similar to Ruby, Perl, Lua.\n\n\nBatteries included\n in nature.\n\n\nPowerful third party libraries.\n\n\nPython saves a lot of \nprogrammer\ns time\n(which is of essence in a pen test)\n\n\nSimple Learning curve\n\n\nHonestly, it\ns a lot of fun and more productive to code in Python.", 
+            "title": "Language intro"
+        }, 
+        {
+            "location": "/language_intro/index.html#trivia", 
+            "text": "Created by Guido Van Rossum in 1991.  Tremendous community support.  Lots of momentum in Pen Testing industry(Scapy, Sulley, Volataility, Impacket  other tools, A few dedicated courses, Half a dozen useful books)", 
+            "title": "Trivia"
+        }, 
+        {
+            "location": "/language_intro/index.html#language-intro", 
+            "text": "Python is an interpreted, multi-paradigm language.  Python has  no compile-time type checking  of the source code. Python tracks the types of all values at runtime and flags code that does not make sense as it runs.  Python is a scripting language similar to Ruby, Perl, Lua.  Batteries included  in nature.  Powerful third party libraries.  Python saves a lot of  programmer s time (which is of essence in a pen test)  Simple Learning curve  Honestly, it s a lot of fun and more productive to code in Python.", 
+            "title": "Language intro"
+        }, 
+        {
+            "location": "/modes/index.html", 
+            "text": "If you want to learn to swim jump into the water. On dry land no frame of mind is ever going to help you. \n - Bruce Lee.\n\n\n\n\nInteractive interpreter\n\n\n\n\nJust run \npython\n command in your terminal. You will be presented with an interactive interpreter.\n\n\n means the interpreter is ready to take input\n\n\nRead, Eval, Print, Loop\n\n\nIt\ns a good approach to have interactive interpreter open along with text editor while writing scripts, just to try things out on the go.\n\n\n\n\nverax@humla $ python  # run python interpreter\nPython 2.7.6 (default, Mar 22 2014, 22:59:56) \n[GCC 4.8.2] on linux2\nType \nhelp\n, \ncopyright\n, \ncredits\n or \nlicense\n for more information.\n\n \n\n print \nI'm an interactive interpreter\n\nI'm an interactive interpreter\n\n \n\n\n\n\n\nScript interpreter\n\n\n\n\nWrite a script in text editor, save it with \n.py extension\n\n\npython \nscript_name.py>\n to execute\n\n\nNano, Vim, Vi, Emacs are some decent commandline text editors.\n\n\nKate, Gedit, Notepad++ for people who like to work with GUI.\n\n\n\n\n# contents of script\nverax@untamed $ cat script.py \nprint \nI'm a script!!\n\n\n#Executing script\nverax@untamed  $ python script.py \nI'm a script!!\n\n\n\n\n\n\nConsole\n\n\n\n\nPython -c\n let\ns you call the python binary directly, very handy when writing one liners.\n\n\n\n\n# A simple onliner to build a NOP sled for memory exploits.\nverax@humla $ python -c \nimport sys; sys.stdout.write('\\x90'*40)\n\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd", 
+            "title": "Modes"
+        }, 
+        {
+            "location": "/modes/index.html#interactive-interpreter", 
+            "text": "Just run  python  command in your terminal. You will be presented with an interactive interpreter.   means the interpreter is ready to take input  Read, Eval, Print, Loop  It s a good approach to have interactive interpreter open along with text editor while writing scripts, just to try things out on the go.   verax@humla $ python  # run python interpreter\nPython 2.7.6 (default, Mar 22 2014, 22:59:56) \n[GCC 4.8.2] on linux2\nType  help ,  copyright ,  credits  or  license  for more information.    print  I'm an interactive interpreter \nI'm an interactive interpreter", 
+            "title": "Interactive interpreter"
+        }, 
+        {
+            "location": "/modes/index.html#script-interpreter", 
+            "text": "Write a script in text editor, save it with  .py extension  python  script_name.py>  to execute  Nano, Vim, Vi, Emacs are some decent commandline text editors.  Kate, Gedit, Notepad++ for people who like to work with GUI.   # contents of script\nverax@untamed $ cat script.py \nprint  I'm a script!! \n\n#Executing script\nverax@untamed  $ python script.py \nI'm a script!!", 
+            "title": "Script interpreter"
+        }, 
+        {
+            "location": "/modes/index.html#console", 
+            "text": "Python -c  let s you call the python binary directly, very handy when writing one liners.   # A simple onliner to build a NOP sled for memory exploits.\nverax@humla $ python -c  import sys; sys.stdout.write('\\x90'*40) \n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd", 
+            "title": "Console"
+        }, 
+        {
+            "location": "/syntax_styling/index.html", 
+            "text": "Syntax \n Styling\n\n\n\n\nNo mandatory statement termination characters.\n\n\nIndentation\n(4 spaces, no tabs).\n\n\nIndent to begin a block, dedent to end one.\n\n\nStatements that expect an indentation level end in a colon(:).\n\n\n\n\nCamelCase\n for classes and \nlower_case_with_underscores\n for functions and methods.\n\n\n\n\n\n\n\nRefer to \nPEP 8\n for more styling guidelines.\n\n\n\n\n\n\n\n\nPython Enhancement Proposals(PEP)\n\n\nPEPs are Python Enhancement Proposals. They describe changes to Python itself, or the standards around it.\n\n\n\n\nIndentation\n\n\n\n\nOne unusual Python feature is that the whitespace indentation of a piece of code affects its meaning.\n\n\nA logical block of statements such as the ones that make up a function should all have the same indentation, set in from the indentation of their parent function or \nif\n or whatever. If one of the lines in a group has a different indentation, it is flagged as a syntax error.\n\n\nIndentation(4 spaces, no tabs).\n\n\nIndent to begin a block, dedent to end one.\n\n\n\n\n\n\n\n\n\nBoiler plate syntax\n\n\nif __name__ == '__main__':\n  main()\n\n\n\n\nWhen the Python interpreter reads a source file, it executes all of the code found in it. Before executing the code, it will define a few special variables. For the main program(program you run), it sets the special \n__name__\n variable to have a value \n__main__\n. If this file is being imported from another module, \n__name__\n will be set to the module\ns name.\n\n\nThe above mentioned boiler plate syntax avoids the imported module from being executed(Because the imported module\ns \n__name__\n is not \n__main__\n). It\ns not mandatory to have the boiler plate syntax but it is a good practice incase you ever want to import the program you write as a module into other program.\n\n\n\n\nTL:DR:\n Think about the boiler plate syntax as a piece of code that should just be there at the bottom of your python scripts.\n\n\n\n\nPython 2.7.6 (default, Mar 22 2014, 22:59:56) \n[GCC 4.8.2] on linux2\n\n \n\n __name__        # For the program you run, special variable __name__ is assigned value __main__\n'__main__'\n\n \n\n \n\n import sys      # When you import a module/program, the __name__ variable is set to the module name not __main__\n\n sys.__name__\n'sys'\n\n\n\n\nFurther reading on this topic: \nhttp://stackoverflow.com/questions/419163/what-does-if-name-main-do", 
+            "title": "Syntax & Styling"
+        }, 
+        {
+            "location": "/syntax_styling/index.html#syntax-styling", 
+            "text": "No mandatory statement termination characters.  Indentation (4 spaces, no tabs).  Indent to begin a block, dedent to end one.  Statements that expect an indentation level end in a colon(:).   CamelCase  for classes and  lower_case_with_underscores  for functions and methods.    Refer to  PEP 8  for more styling guidelines.     Python Enhancement Proposals(PEP)  PEPs are Python Enhancement Proposals. They describe changes to Python itself, or the standards around it.", 
+            "title": "Syntax &amp; Styling"
+        }, 
+        {
+            "location": "/syntax_styling/index.html#indentation", 
+            "text": "One unusual Python feature is that the whitespace indentation of a piece of code affects its meaning.  A logical block of statements such as the ones that make up a function should all have the same indentation, set in from the indentation of their parent function or  if  or whatever. If one of the lines in a group has a different indentation, it is flagged as a syntax error.  Indentation(4 spaces, no tabs).  Indent to begin a block, dedent to end one.", 
+            "title": "Indentation"
+        }, 
+        {
+            "location": "/syntax_styling/index.html#boiler-plate-syntax", 
+            "text": "if __name__ == '__main__':\n  main()  When the Python interpreter reads a source file, it executes all of the code found in it. Before executing the code, it will define a few special variables. For the main program(program you run), it sets the special  __name__  variable to have a value  __main__ . If this file is being imported from another module,  __name__  will be set to the module s name.  The above mentioned boiler plate syntax avoids the imported module from being executed(Because the imported module s  __name__  is not  __main__ ). It s not mandatory to have the boiler plate syntax but it is a good practice incase you ever want to import the program you write as a module into other program.   TL:DR:  Think about the boiler plate syntax as a piece of code that should just be there at the bottom of your python scripts.   Python 2.7.6 (default, Mar 22 2014, 22:59:56) \n[GCC 4.8.2] on linux2    __name__        # For the program you run, special variable __name__ is assigned value __main__\n'__main__'      import sys      # When you import a module/program, the __name__ variable is set to the module name not __main__  sys.__name__\n'sys'  Further reading on this topic:  http://stackoverflow.com/questions/419163/what-does-if-name-main-do", 
+            "title": "Boiler plate syntax"
+        }, 
+        {
+            "location": "/objects/index.html", 
+            "text": "First rule of Python is - \nEverything in Python is an object\n\n\n\n\nEverything in Python is an object, and \nalmost everything has attributes and methods.\n\n\ndir(object)\n to display the attributes and methods\n\n\nEverything can be assigned to a variable or passed as an argument to a function.\n\n\nEverything in Python has: an identity (id) and a value (mutable or immutable) \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n id(a)\n26165592\n\n \n\n id(b)\n26165592\n\n \n\n a = 2\n\n \n\n id(a)\n26165568\n\n id(b)\n26165592\n\n\n\n a = 10\n\n a -= 9\n\n a\n1\n\n id(a)\n26165592", 
+            "title": "objects"
+        }, 
+        {
+            "location": "/objects/index.html#first-rule-of-python-is-everything-in-python-is-an-object", 
+            "text": "Everything in Python is an object, and  almost everything has attributes and methods.  dir(object)  to display the attributes and methods  Everything can be assigned to a variable or passed as an argument to a function.  Everything in Python has: an identity (id) and a value (mutable or immutable)            id(a)\n26165592    id(b)\n26165592    a = 2    id(a)\n26165568  id(b)\n26165592   a = 10  a -= 9  a\n1  id(a)\n26165592", 
+            "title": "First rule of Python is - Everything in Python is an object"
+        }, 
+        {
+            "location": "/introspection/index.html", 
+            "text": "Introspection\n\n\n\n\nExtremely powerful pythonic feature.\n\n\nFeatures in Python that help understand other features.\n\n\nEverything in Python is an object, and introspection is to look at this objects in memory and provide information them(attributes \n methods).\n\n\n\n\nhelp()\n\n\n help(sys)\n\n\n\n\ndir()\n\n\n dir(sys)\n['__displayhook__', '__doc__', '__excepthook__' [...snipped...]]\n\n\n\n\ntype()\n\n\n import sys\n\n \n\n \n\n type(sys)\n\ntype 'module'\n\n\n type(1)\n\ntype 'int'\n\n\n type()\n\n\n\n\n\ndoc string\n\n\n sys.__doc__\n\nThis module provides access to some objects used [...snipped...]\n\n\n\n\n\n\n\n__builtin__\n\n\ntype, str, dir, help and all the rest of Python\ns built\u2212in functions are grouped into a special module called __builtin__.\n\nTry to think of it like python interpreter calls import __builtin__ when you run a program. \n\nBuiltin methods are not keywords, their names can be over-ridden so do not use builtin method names for anything else.\n\n\n\n\n import __builtin__\n\n \n\n __builtin__\n\nmodule '__builtin__' (built-in)\n\n\n \n\n dir(__builtin__)\n['ArithmeticError', 'AssertionError', 'AttributeError',[..snipped..]", 
+            "title": "Introspection"
+        }, 
+        {
+            "location": "/introspection/index.html#introspection", 
+            "text": "Extremely powerful pythonic feature.  Features in Python that help understand other features.  Everything in Python is an object, and introspection is to look at this objects in memory and provide information them(attributes   methods).", 
+            "title": "Introspection"
+        }, 
+        {
+            "location": "/introspection/index.html#help", 
+            "text": "help(sys)", 
+            "title": "help()"
+        }, 
+        {
+            "location": "/introspection/index.html#dir", 
+            "text": "dir(sys)\n['__displayhook__', '__doc__', '__excepthook__' [...snipped...]]", 
+            "title": "dir()"
+        }, 
+        {
+            "location": "/introspection/index.html#type", 
+            "text": "import sys      type(sys) type 'module'   type(1) type 'int'   type()", 
+            "title": "type()"
+        }, 
+        {
+            "location": "/introspection/index.html#doc-string", 
+            "text": "sys.__doc__ This module provides access to some objects used [...snipped...]    __builtin__  type, str, dir, help and all the rest of Python s built\u2212in functions are grouped into a special module called __builtin__. \nTry to think of it like python interpreter calls import __builtin__ when you run a program.  \nBuiltin methods are not keywords, their names can be over-ridden so do not use builtin method names for anything else.    import __builtin__    __builtin__ module '__builtin__' (built-in)     dir(__builtin__)\n['ArithmeticError', 'AssertionError', 'AttributeError',[..snipped..]", 
+            "title": "doc string"
+        }, 
+        {
+            "location": "/strings/index.html", 
+            "text": "Strings\n\n\n\n\nStrings in Python can be enclosed by either double or single quotes.\n\n\nA string literal can span multiple lines, but there must be a backslash \\ at the end of each line to escape the newline. String literals inside triple quotes, \n or \n, can multiple lines of text.\n\n\nPython strings are \nimmutable\n which means they cannot be changed after they are created.(Any changes applied on strings should be assigned to a new string)\n\n\n\n\nString methods\n\n\nPython strings comes with an extensive number of methods. Here are some of the most common string methods:\n\n\n\n\ns.lower(), s.upper() \n returns the lowercase or uppercase version of the string \n\n\ns.strip() \n returns a string with whitespace removed from the start and end \n\n\ns.isalpha()/s.isdigit()/s.isspace()\n \n tests if all the string chars are in the various character classes\n\n\ns.startswith(\nother\n), s.endswith(\nother\n) \n tests if the string starts or ends with the given other string\n\n\ns.find(\nother\n) \n searches for the given other string (not a regular expression) within s, and returns the first index where it begins or -1 if not found\n\n\n\n\nString Slicing\n\n\n\n\nCharacters in a string can be accessed using the standard [ ] syntax.\n\n\nPython allows very flexible slicing mechanism on strings.\n\n\n\n\n\n\n\n\n\n\n\ns[1:4] is \nell\n \n chars starting at index 1 and extending up to but not including index 4\n\n\ns[1:] is \nello\n \n omitting either index defaults to the start or end of the string\n\n\ns[:] is \nHello\n \n omitting both always gives us a copy of the whole thing (this is the pythonic way to copy a sequence like a string or list) \n\n\n s[-1] is \no\n \n last char (1st from the end)\n\ns[:-3] is \nHe\n \n going up to but not including the last 3 chars.\n\n\n file_path = \nC:/windows/system32/meterpreter.exe\n\n\n \n\n file_path[0]\n'C'\n\n file_path[3:10]\n'windows'\n\n \n\n file_path[-3:]\n'exe'\n\n file_path.split('/')\n['C:', 'windows', 'system32', 'meterpreter.exe']\n\n \n\n\n\n\nString concatenation\n\n\n\n\nPython string concatenation is pretty straight forward.\n\n\nThe \n+\n does not automatically convert numbers or other types to string form. The str() function converts values to a string form so they can be combined with other strings.\n\n\n\n\n path = \n/home/opt/\n\n\n file = 'msfconsole'\n\n \n\n file_path = path+file\n\n file_path\n'/home/opt/msfconsole'\n\n\n os.path.join('/home','opt','msfconsole')\n'/home/opt/msfconsole'\n\n\n email = ['target', '@', 'example.com']\n\n \n\n a = \n\n\n \n\n a.join(email)\n'target@example.com'\n\n \n.join(email)\n'target@example.com'", 
+            "title": "Strings"
+        }, 
+        {
+            "location": "/strings/index.html#strings", 
+            "text": "Strings in Python can be enclosed by either double or single quotes.  A string literal can span multiple lines, but there must be a backslash \\ at the end of each line to escape the newline. String literals inside triple quotes,   or  , can multiple lines of text.  Python strings are  immutable  which means they cannot be changed after they are created.(Any changes applied on strings should be assigned to a new string)", 
+            "title": "Strings"
+        }, 
+        {
+            "location": "/strings/index.html#string-methods", 
+            "text": "Python strings comes with an extensive number of methods. Here are some of the most common string methods:   s.lower(), s.upper()   returns the lowercase or uppercase version of the string   s.strip()   returns a string with whitespace removed from the start and end   s.isalpha()/s.isdigit()/s.isspace()    tests if all the string chars are in the various character classes  s.startswith( other ), s.endswith( other )   tests if the string starts or ends with the given other string  s.find( other )   searches for the given other string (not a regular expression) within s, and returns the first index where it begins or -1 if not found", 
+            "title": "String methods"
+        }, 
+        {
+            "location": "/strings/index.html#string-slicing", 
+            "text": "Characters in a string can be accessed using the standard [ ] syntax.  Python allows very flexible slicing mechanism on strings.      s[1:4] is  ell    chars starting at index 1 and extending up to but not including index 4 \ns[1:] is  ello    omitting either index defaults to the start or end of the string \ns[:] is  Hello    omitting both always gives us a copy of the whole thing (this is the pythonic way to copy a sequence like a string or list)  \n s[-1] is  o    last char (1st from the end) \ns[:-3] is  He    going up to but not including the last 3 chars.   file_path =  C:/windows/system32/meterpreter.exe     file_path[0]\n'C'  file_path[3:10]\n'windows'    file_path[-3:]\n'exe'  file_path.split('/')\n['C:', 'windows', 'system32', 'meterpreter.exe']", 
+            "title": "String Slicing"
+        }, 
+        {
+            "location": "/strings/index.html#string-concatenation", 
+            "text": "Python string concatenation is pretty straight forward.  The  +  does not automatically convert numbers or other types to string form. The str() function converts values to a string form so they can be combined with other strings.    path =  /home/opt/   file = 'msfconsole'    file_path = path+file  file_path\n'/home/opt/msfconsole'  os.path.join('/home','opt','msfconsole')\n'/home/opt/msfconsole'  email = ['target', '@', 'example.com']    a =      a.join(email)\n'target@example.com'   .join(email)\n'target@example.com'", 
+            "title": "String concatenation"
+        }, 
+        {
+            "location": "/data_structures/index.html", 
+            "text": "Basic data structures\n\n\nPython - Lists\n\n\n\n\nSyntax: \nmy_list = [item0, item1,item2]\n\n\nCollection of elements of any data type.\n\n\nLists are \nmutable\n (Can be changed even after creation).\n\n\nPython provides numerous methods on lists. Just \ndir(list_name)\n to get a list of all the methods available.\n\n\nIndexing \n Slicing mechanism is consistent with strings.\n\n\nLists have very useful methods to manipulate them such as append, count, extend, index, insert, pop, remove, reverse,sort.\n\n\n\n\n\ncolors = ['red', 'blue', 'green']\nprint colors[0]    ## red\nprint colors[2]    ## green\nprint len(colors)  ## 3\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment with an = on lists does not make a copy. Instead, assignment makes the two variables point to the one list in memory.\n\n\n\n\n\n\n\n\n\n\n\n\n\nList of lists or sublists\n\n\nLists can have sublists as elements. These sublists may contain sublists as well, i.e. lists can be recursively constructed by sublist structures.\n\n\n\n\n\n\n\n\n\n employee_details = [('Mark','22489'),('Steph','88153'),('Ajay','99112')]\n\n\n\n for i in xrange(len(employee_details)):\n...          print employee_details[i][0], employee_details[i][1]\n... \nMark 22489\nSteph 88153\nAjay 99112\n\n\n\n\n\nTuples\n\n\n\n\nSyntax \nmy_tuple = (val0, val1)\n\n\nA tuple is a \nfixed size\n grouping of elements.\n\n\nTuples are like lists but are \nimmutable\n and do not change size (tuples are not strictly immutable since one of the contained elements could be mutable).\n\n\nTuples have no other methods other than builtin\ns\n\n\n\nTuples are faster than lists.\n\n\nTuples are immutable so they protect from data being changed.\n\n\nTuples can be used as keys in a dictionary.\n\n\n\n\n  tuple = (1, 2, 'hi')\n  print len(tuple)  ## 3\n  print tuple[2]    ## hi\n  tuple[2] = 'bye'  ## NO, tuples cannot be changed\n  tuple = (1, 2, 'bye')  ## this works\n\n\n\n\nDictionaries\n\n\n\n\nsyntax: \ndict = {key1:value1, key2:value2, \n }\n\n\nPython\ns efficient key/value hash table structure is called a \ndict\n.\n\n\nDictionaries are unordered key-value pairs.\n\n\nDictionaries don\nt support the sequence operation unlike lists, tuples or strigs so mechanisms like slicing are not possibl. \n\n\nDictionaries are accessed via keys and not via their position.\n\n\nThe contents of a dict can be written as a series of key:value pairs within braces { }.\n\n\nLooking up or setting a value in a dict uses square brackets, e.g. dict[\nfoo\n] looks up the value under the key \nfoo\n. \n\n\nStrings, numbers, and tuples work as keys, and any type can be a value.\n\n\n\n\n  ## Can build up a dict by starting with the the empty dict {}\n  ## and storing key/value pairs into the dict like this:\n  ## dict[key] = value-for-that-key\n  dict = {}\n  dict['a'] = 'alpha'\n  dict['g'] = 'gamma'\n  dict['o'] = 'omega'\n\n  print dict  ## {'a': 'alpha', 'o': 'omega', 'g': 'gamma'}\n\n  print dict['a']     ## Simple lookup, returns 'alpha'\n  dict['a'] = 6       ## Put new key/value into dict\n  'a' in dict         ## True\n  ## print dict['z']                  ## Throws KeyError\n  if 'z' in dict: print dict['z']     ## Avoid KeyError\n  print dict.get('z')  ## None (instead of KeyError)\n\n\n\n\n\n\n\n\n\n\n\nIterating over a Dictionary\n\n\nNo method is needed to iterate over a dictionary:\n\n\nfor key in d:\n    print key\n\n\n\n\nBut it\ns possible to use the method iterkeys():\n\n\nfor key in d.iterkeys():\n    print key\n\n\n\n\nThe method itervalues() is a convenient way for iterating directly over the \n\n\nvalues:\nfor val in d.itervalues():\n    print val\n\n\n\n\nThe above loop is of course equivalent to the following one:\nfor key in d:\n    print d[key]\n\n\n\n\nA for loop on a dictionary iterates over its keys by default. The keys will appear in an arbitrary order. The methods dict.keys() and dict.values() return lists of the keys or values explicitly. There\ns also an items() which returns a list of (key, value) tuples, which is the most efficient way to examine all the key value data in the dictionary. All of these lists can be passed to the sorted() function.\n\n\n  ## By default, iterating over a dict iterates over its keys.\n  ## Note that the keys are in a random order.\n  for key in dict: print key\n  ## prints a g o\n\n  ## Exactly the same as above\n  for key in dict.keys(): print key\n\n  ## Get the .keys() list:\n  print dict.keys()  ## ['a', 'o', 'g']\n\n  ## Likewise, there's a .values() list of values\n  print dict.values()  ## ['alpha', 'omega', 'gamma']\n\n  ## Common case -- loop over the keys in sorted order,\n  ## accessing each key/value\n  for key in sorted(dict.keys()):\n    print key, dict[key]\n\n  ## .items() is the dict expressed as (key, value) tuples\n  print dict.items()  ##  [('a', 'alpha'), ('o', 'omega'), ('g', 'gamma')]\n\n  ## This loop syntax accesses the whole dict by looping\n  ## over the .items() tuple list, accessing one (key, value)\n  ## pair on each iteration.\n  for k, v in dict.items(): print k, '\n', v\n  ## a \n alpha    o \n omega     g \n gamma\n\n\n\n\n\nThere are \niter\n variants of these methods called iterkeys(), itervalues() and iteritems() which avoid the cost of constructing the whole list \n a performance win if the data is huge. However, I generally prefer the plain keys() and values() methods with their sensible names. In Python 3000 revision, the need for the iterkeys() variants is going away.\n\n\nStrategy note: from a performance point of view, the dictionary is one of your greatest tools, and you should use where you can as an easy way to organize data. For example, you might read a log file where each line begins with an ip address, and store the data into a dict using the ip address as the key, and the list of lines where it appears as the value. Once you\nve read in the whole file, you can look up any ip address and instantly see its list of lines. The dictionary takes in scattered data and make it into something coherent.\n\n\nSets\n\n\n\n\nSet is an unordered collection of items.\n\n\nEvery element is unique (no duplicates).\n\n\nSets are mutable but the elements in sets must be immutable.\n\n\nset()\n is an builtin funcion thst converts any iterable into a python set.\n\n\npython sets are very handy to work with mathematical set operations like union, intersection, symmetric.\n\n\n\n\n # set of integers\n\n my_set = {1, 2, 3}\n\n\n # set of mixed datatypes\n\n my_set = {1.0, \nHello\n, (1, 2, 3)}\n\n\n # set donot have duplicates\n\n {1,2,3,4,3,2}\n{1, 2, 3, 4}\n\n\n # set cannot have mutable items\n\n my_set = {1, 2, [3, 4]}\n...\nTypeError: unhashable type: 'list'\n\n\n # but we can make set from a list\n\n set([1,2,3,2])\n{1, 2, 3}", 
+            "title": "Data Structures"
+        }, 
+        {
+            "location": "/data_structures/index.html#basic-data-structures", 
+            "text": "", 
+            "title": "Basic data structures"
+        }, 
+        {
+            "location": "/data_structures/index.html#python-lists", 
+            "text": "Syntax:  my_list = [item0, item1,item2]  Collection of elements of any data type.  Lists are  mutable  (Can be changed even after creation).  Python provides numerous methods on lists. Just  dir(list_name)  to get a list of all the methods available.  Indexing   Slicing mechanism is consistent with strings.  Lists have very useful methods to manipulate them such as append, count, extend, index, insert, pop, remove, reverse,sort.   colors = ['red', 'blue', 'green']\nprint colors[0]    ## red\nprint colors[2]    ## green\nprint len(colors)  ## 3     \nAssignment with an = on lists does not make a copy. Instead, assignment makes the two variables point to the one list in memory.", 
+            "title": "Python - Lists"
+        }, 
+        {
+            "location": "/data_structures/index.html#list-of-lists-or-sublists", 
+            "text": "Lists can have sublists as elements. These sublists may contain sublists as well, i.e. lists can be recursively constructed by sublist structures.      employee_details = [('Mark','22489'),('Steph','88153'),('Ajay','99112')]   for i in xrange(len(employee_details)):\n...          print employee_details[i][0], employee_details[i][1]\n... \nMark 22489\nSteph 88153\nAjay 99112", 
+            "title": "List of lists or sublists"
+        }, 
+        {
+            "location": "/data_structures/index.html#tuples", 
+            "text": "Syntax  my_tuple = (val0, val1)  A tuple is a  fixed size  grouping of elements.  Tuples are like lists but are  immutable  and do not change size (tuples are not strictly immutable since one of the contained elements could be mutable).  Tuples have no other methods other than builtin s  Tuples are faster than lists.  Tuples are immutable so they protect from data being changed.  Tuples can be used as keys in a dictionary.     tuple = (1, 2, 'hi')\n  print len(tuple)  ## 3\n  print tuple[2]    ## hi\n  tuple[2] = 'bye'  ## NO, tuples cannot be changed\n  tuple = (1, 2, 'bye')  ## this works", 
+            "title": "Tuples"
+        }, 
+        {
+            "location": "/data_structures/index.html#dictionaries", 
+            "text": "syntax:  dict = {key1:value1, key2:value2,   }  Python s efficient key/value hash table structure is called a  dict .  Dictionaries are unordered key-value pairs.  Dictionaries don t support the sequence operation unlike lists, tuples or strigs so mechanisms like slicing are not possibl.   Dictionaries are accessed via keys and not via their position.  The contents of a dict can be written as a series of key:value pairs within braces { }.  Looking up or setting a value in a dict uses square brackets, e.g. dict[ foo ] looks up the value under the key  foo .   Strings, numbers, and tuples work as keys, and any type can be a value.     ## Can build up a dict by starting with the the empty dict {}\n  ## and storing key/value pairs into the dict like this:\n  ## dict[key] = value-for-that-key\n  dict = {}\n  dict['a'] = 'alpha'\n  dict['g'] = 'gamma'\n  dict['o'] = 'omega'\n\n  print dict  ## {'a': 'alpha', 'o': 'omega', 'g': 'gamma'}\n\n  print dict['a']     ## Simple lookup, returns 'alpha'\n  dict['a'] = 6       ## Put new key/value into dict\n  'a' in dict         ## True\n  ## print dict['z']                  ## Throws KeyError\n  if 'z' in dict: print dict['z']     ## Avoid KeyError\n  print dict.get('z')  ## None (instead of KeyError)", 
+            "title": "Dictionaries"
+        }, 
+        {
+            "location": "/data_structures/index.html#iterating-over-a-dictionary", 
+            "text": "No method is needed to iterate over a dictionary:  for key in d:\n    print key  But it s possible to use the method iterkeys():  for key in d.iterkeys():\n    print key  The method itervalues() is a convenient way for iterating directly over the   values:\nfor val in d.itervalues():\n    print val  The above loop is of course equivalent to the following one:\nfor key in d:\n    print d[key]  A for loop on a dictionary iterates over its keys by default. The keys will appear in an arbitrary order. The methods dict.keys() and dict.values() return lists of the keys or values explicitly. There s also an items() which returns a list of (key, value) tuples, which is the most efficient way to examine all the key value data in the dictionary. All of these lists can be passed to the sorted() function.    ## By default, iterating over a dict iterates over its keys.\n  ## Note that the keys are in a random order.\n  for key in dict: print key\n  ## prints a g o\n\n  ## Exactly the same as above\n  for key in dict.keys(): print key\n\n  ## Get the .keys() list:\n  print dict.keys()  ## ['a', 'o', 'g']\n\n  ## Likewise, there's a .values() list of values\n  print dict.values()  ## ['alpha', 'omega', 'gamma']\n\n  ## Common case -- loop over the keys in sorted order,\n  ## accessing each key/value\n  for key in sorted(dict.keys()):\n    print key, dict[key]\n\n  ## .items() is the dict expressed as (key, value) tuples\n  print dict.items()  ##  [('a', 'alpha'), ('o', 'omega'), ('g', 'gamma')]\n\n  ## This loop syntax accesses the whole dict by looping\n  ## over the .items() tuple list, accessing one (key, value)\n  ## pair on each iteration.\n  for k, v in dict.items(): print k, ' ', v\n  ## a   alpha    o   omega     g   gamma  There are  iter  variants of these methods called iterkeys(), itervalues() and iteritems() which avoid the cost of constructing the whole list   a performance win if the data is huge. However, I generally prefer the plain keys() and values() methods with their sensible names. In Python 3000 revision, the need for the iterkeys() variants is going away.  Strategy note: from a performance point of view, the dictionary is one of your greatest tools, and you should use where you can as an easy way to organize data. For example, you might read a log file where each line begins with an ip address, and store the data into a dict using the ip address as the key, and the list of lines where it appears as the value. Once you ve read in the whole file, you can look up any ip address and instantly see its list of lines. The dictionary takes in scattered data and make it into something coherent.", 
+            "title": "Iterating over a Dictionary"
+        }, 
+        {
+            "location": "/data_structures/index.html#sets", 
+            "text": "Set is an unordered collection of items.  Every element is unique (no duplicates).  Sets are mutable but the elements in sets must be immutable.  set()  is an builtin funcion thst converts any iterable into a python set.  python sets are very handy to work with mathematical set operations like union, intersection, symmetric.    # set of integers  my_set = {1, 2, 3}  # set of mixed datatypes  my_set = {1.0,  Hello , (1, 2, 3)}  # set donot have duplicates  {1,2,3,4,3,2}\n{1, 2, 3, 4}  # set cannot have mutable items  my_set = {1, 2, [3, 4]}\n...\nTypeError: unhashable type: 'list'  # but we can make set from a list  set([1,2,3,2])\n{1, 2, 3}", 
+            "title": "Sets"
+        }, 
+        {
+            "location": "/sorting/index.html", 
+            "text": "Sorting\n\n\nSorted()\n\n\n\n\nThe easiest way to sort is with the \nsorted(list)\n function.\n\n\nSorted takes a list and returns a new list with those elements in sorted order. The original list is not changed.\n\n\nSorted can infact take as input any sort of iterable collection.\n\n\n\n\n  a = [5, 1, 4, 3]\n  print sorted(a)  ## [1, 3, 4, 5]\n  print a  ## [5, 1, 4, 3]\n\n\n\n\n\n\nThe sorted() function \ncan be customized though optional arguments\n.\n\n\nhelp(sorted)\n to view all the optional arguments.\n\n\n\n\n strs = ['aa', 'BB', 'zz', 'CC']\n print sorted(strs)  ## ['BB', 'CC', 'aa', 'zz'] (case sensitive)\n print sorted(strs, reverse=True)   ## ['zz', 'aa', 'CC', 'BB']\n\n\n\n\nCustom Sorting With \nkey\n parameter\n\n\n\n\nFor more complex custom sorting, sorted() takes an optional \nkey=\n.\n\n\nkey\n takes a function that transforms each element before comparison.\n\n\nThe key function takes in 1 value and returns 1 value, and the returned \nproxy\n value is used for the comparisons within the sort.\n\n\nFor example with a list of strings, specifying key=len (the built in len() function) sorts the strings by length, from shortest to longest. The sort calls len() for each string to get the list of proxy length values, and the sorts with those proxy values.\n\n\n\n\nstrs = ['ccc', 'aaaa', 'd', 'bb']\n  print sorted(strs, key=len)  ## ['d', 'bb', 'ccc', 'aaaa']", 
+            "title": "Sorting"
+        }, 
+        {
+            "location": "/sorting/index.html#sorting", 
+            "text": "", 
+            "title": "Sorting"
+        }, 
+        {
+            "location": "/sorting/index.html#sorted", 
+            "text": "The easiest way to sort is with the  sorted(list)  function.  Sorted takes a list and returns a new list with those elements in sorted order. The original list is not changed.  Sorted can infact take as input any sort of iterable collection.     a = [5, 1, 4, 3]\n  print sorted(a)  ## [1, 3, 4, 5]\n  print a  ## [5, 1, 4, 3]   The sorted() function  can be customized though optional arguments .  help(sorted)  to view all the optional arguments.    strs = ['aa', 'BB', 'zz', 'CC']\n print sorted(strs)  ## ['BB', 'CC', 'aa', 'zz'] (case sensitive)\n print sorted(strs, reverse=True)   ## ['zz', 'aa', 'CC', 'BB']", 
+            "title": "Sorted()"
+        }, 
+        {
+            "location": "/sorting/index.html#custom-sorting-with-key-parameter", 
+            "text": "For more complex custom sorting, sorted() takes an optional  key= .  key  takes a function that transforms each element before comparison.  The key function takes in 1 value and returns 1 value, and the returned  proxy  value is used for the comparisons within the sort. \nFor example with a list of strings, specifying key=len (the built in len() function) sorts the strings by length, from shortest to longest. The sort calls len() for each string to get the list of proxy length values, and the sorts with those proxy values.   strs = ['ccc', 'aaaa', 'd', 'bb']\n  print sorted(strs, key=len)  ## ['d', 'bb', 'ccc', 'aaaa']", 
+            "title": "Custom Sorting With key parameter"
+        }, 
+        {
+            "location": "/functions/index.html", 
+            "text": "Functions\n\n\nThere are two ways of defining functions in Python.\n\n\n\n\nTraditonal \ndef\n functions.\n\n\nLambda functions\n\n\n\n\nTraditional \ndef\n functions\n\n\ndef  function_name (param1, param2):\n\n\nindented code>\n\n\n\n\nThe \ndef\n keyword defines the function with its parameters within parentheses and its code indented.\n\n\n\nThe first line of a function can be a documentation string (\ndocstring\n) that describes what the function does(Not mandatory but recommended). A docstring of any object can be retrived using \nobject.__doc__\n\n\n\n\nVariables defined in the function are local to that function.\n\n\n\nPython functions by default return variable type \nNone\n unless otherwise mentioned.\n\n\n\n\n# Defines a \nrepeat\n function that takes 2 arguments.\ndef repeat(s, exclaim):\n    \n\n    Returns the string 's' repeated 3 times.\n    If exclaim is true, add exclamation marks.\n    \n\n\n    result = s + s + s # can also use \ns * 3\n which is faster (Why?)\n    if exclaim:\n        result = result + '!!!'\n    return result\n\n\n\n\n\n\nLambda functions\n\n\nSyntax: \nlambda arg1, arg2, \nargN : expression using arguments\n.\n\n\n\n\n\n\n\n\n\n\n\n\n- Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called \nlambda\n.\n\n- Lambda functions take any number of arguments but only has one expression, the result of this expression is returned.\n\n\n def f (x): return x**2\n... \n\n print f(8)\n64\n\n \n\n g = lambda x: x**2\n\n \n\n print g(8)\n64\n\n\n\n\n\n\nLambda functions can be used anywhere a function is expected, not necessary to assign it to a variable.\n\n\nYou can pass lambda functions to other functions to do stuff(for example lambda function as key to sorted())\n\n\n\n\nmult3 = filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9])\n\n\n\n\n\n\nUsing Lambda\n\n\nLambda funtions are good when they are short and as throw away functions. If you plan on doing anything remotely complex with it, put lambda away and define a real function.", 
+            "title": "Functions"
+        }, 
+        {
+            "location": "/functions/index.html#functions", 
+            "text": "There are two ways of defining functions in Python.   Traditonal  def  functions.  Lambda functions", 
+            "title": "Functions"
+        }, 
+        {
+            "location": "/functions/index.html#traditional-def-functions", 
+            "text": "def  function_name (param1, param2):  indented code>   The  def  keyword defines the function with its parameters within parentheses and its code indented.  The first line of a function can be a documentation string ( docstring ) that describes what the function does(Not mandatory but recommended). A docstring of any object can be retrived using  object.__doc__   Variables defined in the function are local to that function.  Python functions by default return variable type  None  unless otherwise mentioned.   # Defines a  repeat  function that takes 2 arguments.\ndef repeat(s, exclaim):\n     \n    Returns the string 's' repeated 3 times.\n    If exclaim is true, add exclamation marks.\n     \n\n    result = s + s + s # can also use  s * 3  which is faster (Why?)\n    if exclaim:\n        result = result + '!!!'\n    return result", 
+            "title": "Traditional def functions"
+        }, 
+        {
+            "location": "/functions/index.html#lambda-functions", 
+            "text": "Syntax:  lambda arg1, arg2,  argN : expression using arguments .      \n- Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called  lambda . \n- Lambda functions take any number of arguments but only has one expression, the result of this expression is returned.   def f (x): return x**2\n...   print f(8)\n64    g = lambda x: x**2    print g(8)\n64   Lambda functions can be used anywhere a function is expected, not necessary to assign it to a variable.  You can pass lambda functions to other functions to do stuff(for example lambda function as key to sorted())   mult3 = filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9])   Using Lambda  Lambda funtions are good when they are short and as throw away functions. If you plan on doing anything remotely complex with it, put lambda away and define a real function.", 
+            "title": "Lambda functions"
+        }, 
+        {
+            "location": "/importing/index.html", 
+            "text": "Importing modules\n\n\n\n\nimport socket\n\nimport argparse\n\n \n\n dir()\n['__builtins__', '__doc__', '__name__', '__package__', 'socket', 'argparse']\n\n\n\n\n\n\n\n\n from socket import *\n\n from scapy.all import *\n\n dir()\n['AF_APPLETALK', 'AF_ASH', 'AF_ATMPVC', 'AF_ATMSVC','SOCK_DGRAM', 'SOCK_RAW', 'SOCK_RDM', 'SOCK_SEQPACKET', 'SOCK_STREAM']\n[...snipped...]\n\n\n\n\n\n\nImporting custom modules", 
+            "title": "Importing"
+        }, 
+        {
+            "location": "/importing/index.html#importing-modules", 
+            "text": "import socket import argparse    dir()\n['__builtins__', '__doc__', '__name__', '__package__', 'socket', 'argparse']     from socket import *  from scapy.all import *  dir()\n['AF_APPLETALK', 'AF_ASH', 'AF_ATMPVC', 'AF_ATMSVC','SOCK_DGRAM', 'SOCK_RAW', 'SOCK_RDM', 'SOCK_SEQPACKET', 'SOCK_STREAM']\n[...snipped...]", 
+            "title": "Importing modules"
+        }, 
+        {
+            "location": "/importing/index.html#importing-custom-modules", 
+            "text": "", 
+            "title": "Importing custom modules"
+        }, 
+        {
+            "location": "/printing/index.html", 
+            "text": "print\n as a statement\n\n\n\n\nIn \nPython2.X \nprint\n is a statement\n not a function.\n\n\nVery intutive but not very powerful.\n\n\n\n\n answer = 42\n\n print \nThe answer is: \n + str(answer)\nThe answer is: 42\n\n\n\n\nprint\n as a function\n\n\n\n\nIn \nPython 3.X \nprint\n is a function\n which gives it more control on how to print stuff.\n\n\nYou can import print funtion into python 2.7.X using the statement \nfrom future import print_function\n\n\nI would recommend using print as a function even in Python2.X, for one your code will be more compatiable with Python3.X and also print function gives you more control on the output.\n\n\n\n\n from __future__ import print_function       # This internally sets a flag that lets interpreter enable print function\n\n answer = 42\n\n print('The answer is: '+str(42))\nThe answer is: 42\n\n\n\n\n\n\nPrint as a funtion can take arguments which provide more control on how you ptint stuff.\n\n\n\n\nprint(value1, ..., sep=' ', end='\\n', file=sys.stdout, flush=False)\n#\n#    file: a file-like object (stream); defaults to the current sys.stdout.\n#    sep:  string inserted between values, default a space.\n#    end:  string appended after the last value, default a newline.\n#\n\n\n\n\n\n\nWith the \nend\n argument you can choose what is appended as the last value.\n\n\n\n\n# Building a simple NOP sled for memory exploits\n# Only one of the output works for a NOP sled. Which one? Why?(Out of this workshop context though)\n\n\n\n print('\\x90'*30)\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\n\n \n\n print('\\x90'*30, end='')\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\n \n\n\n\n\n\n\n\n\nBy redefining the keyword parameter \nfile\n we can send the output into a different stream e.g. to a file or stderr\n\n\n\n\n fh = open(\ndata.txt\n,\nw\n)\n\n print(\n42 is the answer, but what is the question?\n, file=fh) \n\n fh.close()      # we see no ouput  to console after print because it's directed into the file fh\n\n\n\n\nC-Style format strings\n\n\n\n\nThe nearest thing to c-style printf equivalent in python.\n\n\n'%s %s' % ('one', 'two')\n\n\n\n\n\n\n\n\n\n\n\n port_number = 139\n\n \n\n host = '10.5.0.6'\n\n \n\n print \nPort num: %d is open on Host: %s\n%(port_number, host)\nPort num: 139 is open on Host: 10.5.0.6\n\n\n\n\n\n\nFor more on format string modulo: \nhttp://www.python-course.eu/python3_formatted_output.php\n \n\n\nPythonic style - string format method.\n\n\n\n\n\n\nPython has awesome string formatters to produce beautifully formatted output.\n\n\n\n\n\n\nThe \nfields to be replaced\n are surrounded by curly braces {}.\n\n'{} {}'.format('one', 'two')\n\n\n\n\n\n\n print \n[+] Port num: {} on host {} is open.\n.format(port_number, hostname)\n\n\n\n\nPlaceholders\n\n\n\n\nPython string format method supports placeholders and an explicit positional index. \n{1} {0}'.format('one', 'two')\n\n\nA positional parameter of the format method can be accessed by placing the index of the parameter after the opening brace, e.g. {0} accesses the first parameter.\n\n\n\n\n\n\n\n\n\n\n\n\n- Keywords can be used to index parameters as well.(Named placeholders)\n\n\n \nArt: {a:5d},  Price: {p:8.2f}\n.format(a=453, p=59.058)\n'Art:   453,  Price:    59.06'\n\n \n\n\n\n\nPadding and aligning strings\n\n\nBy default values are formatted to take up only as many characters as needed to represent the content. It is however also possible to define that a value should be padded to a specific length.\n\n\n\n\nWe can precede the formatting with a \n (left justify) or \n (right justify)\n\n\n\n\n '{:\n10}'.format('test')                             # right align\n'      test'\n\n\n\n \n{0:\n20s} {1:6.2f}\n.format('Spam \n Eggs:', 6.99)    # left align\n'Spam \n Eggs:           6.99'\n\n\n\n'{:^10}'.format('test')                          #center align\n'   test   '\n\n\n\n\n\n\nChoose your character for padding. \n'{:_\n10}'.format('test')\n\n\n\n\n '{:_\n10}'.format('test')\n'test______'\n\n\n\n\n\n\nFurther reading on string format method \nhttps://pyformat.info/\n \n\n\n\nsys.stdout.write()\n\n\nThis could be used to write to standard output or consoles when print doesn\u2019t seem to work.\n\n\n pack = '\\x90\\x32\\x67\\x70'\n\n sys.stdout.write(pack)\n\ufffd2gp", 
+            "title": "Printing"
+        }, 
+        {
+            "location": "/printing/index.html#print-as-a-statement", 
+            "text": "In  Python2.X  print  is a statement  not a function.  Very intutive but not very powerful.    answer = 42  print  The answer is:   + str(answer)\nThe answer is: 42", 
+            "title": "print as a statement"
+        }, 
+        {
+            "location": "/printing/index.html#print-as-a-function", 
+            "text": "In  Python 3.X  print  is a function  which gives it more control on how to print stuff.  You can import print funtion into python 2.7.X using the statement  from future import print_function  I would recommend using print as a function even in Python2.X, for one your code will be more compatiable with Python3.X and also print function gives you more control on the output.    from __future__ import print_function       # This internally sets a flag that lets interpreter enable print function  answer = 42  print('The answer is: '+str(42))\nThe answer is: 42   Print as a funtion can take arguments which provide more control on how you ptint stuff.   print(value1, ..., sep=' ', end='\\n', file=sys.stdout, flush=False)\n#\n#    file: a file-like object (stream); defaults to the current sys.stdout.\n#    sep:  string inserted between values, default a space.\n#    end:  string appended after the last value, default a newline.\n#   With the  end  argument you can choose what is appended as the last value.   # Building a simple NOP sled for memory exploits\n# Only one of the output works for a NOP sled. Which one? Why?(Out of this workshop context though)   print('\\x90'*30)\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd    print('\\x90'*30, end='')\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd      By redefining the keyword parameter  file  we can send the output into a different stream e.g. to a file or stderr    fh = open( data.txt , w )  print( 42 is the answer, but what is the question? , file=fh)   fh.close()      # we see no ouput  to console after print because it's directed into the file fh", 
+            "title": "print as a function"
+        }, 
+        {
+            "location": "/printing/index.html#c-style-format-strings", 
+            "text": "The nearest thing to c-style printf equivalent in python.  '%s %s' % ('one', 'two')       port_number = 139    host = '10.5.0.6'    print  Port num: %d is open on Host: %s %(port_number, host)\nPort num: 139 is open on Host: 10.5.0.6   For more on format string modulo:  http://www.python-course.eu/python3_formatted_output.php", 
+            "title": "C-Style format strings"
+        }, 
+        {
+            "location": "/printing/index.html#pythonic-style-string-format-method", 
+            "text": "Python has awesome string formatters to produce beautifully formatted output.    The  fields to be replaced  are surrounded by curly braces {}. '{} {}'.format('one', 'two')     print  [+] Port num: {} on host {} is open. .format(port_number, hostname)", 
+            "title": "Pythonic style - string format method."
+        }, 
+        {
+            "location": "/printing/index.html#placeholders", 
+            "text": "Python string format method supports placeholders and an explicit positional index.  {1} {0}'.format('one', 'two')  A positional parameter of the format method can be accessed by placing the index of the parameter after the opening brace, e.g. {0} accesses the first parameter.      \n- Keywords can be used to index parameters as well.(Named placeholders)    Art: {a:5d},  Price: {p:8.2f} .format(a=453, p=59.058)\n'Art:   453,  Price:    59.06'", 
+            "title": "Placeholders"
+        }, 
+        {
+            "location": "/printing/index.html#padding-and-aligning-strings", 
+            "text": "By default values are formatted to take up only as many characters as needed to represent the content. It is however also possible to define that a value should be padded to a specific length.   We can precede the formatting with a   (left justify) or   (right justify)    '{: 10}'.format('test')                             # right align\n'      test'    {0: 20s} {1:6.2f} .format('Spam   Eggs:', 6.99)    # left align\n'Spam   Eggs:           6.99'  '{:^10}'.format('test')                          #center align\n'   test   '   Choose your character for padding.  '{:_ 10}'.format('test')    '{:_ 10}'.format('test')\n'test______'  \nFurther reading on string format method  https://pyformat.info/", 
+            "title": "Padding and aligning strings"
+        }, 
+        {
+            "location": "/printing/index.html#sysstdoutwrite", 
+            "text": "This could be used to write to standard output or consoles when print doesn\u2019t seem to work.   pack = '\\x90\\x32\\x67\\x70'  sys.stdout.write(pack)\n\ufffd2gp", 
+            "title": "sys.stdout.write()"
+        }, 
+        {
+            "location": "/conditionals_loops/index.html", 
+            "text": "If/elif/else\n\n\n\n\nAny value can be used as an if-test. The \nzero\n values all count as false: None, 0, empty string, empty list, empty dictionary.\n\n\nComparision operations: ==, !=, \n, \n=, \n, \n=\n\n\nThe boolean operators are the spelled out words \nand\n, \nor\n, \nnot\n (Python does not use the C-style \n || !).\n\n\n\n\n\nreturn = scan_target('10.5.0.6')\nif return == 0:\n    print \n[+] Scan sucessful!!\n\n    print packet\nelif return ==1:\n    print \n[-] Scan unsucessful!!\n\n    print \n[*] Inspect with wireshark\n\nelse:\n    print \n[!] Unknown error\n\n\n\n\n\n\n  if speed \n= 80:\n    print 'License and registration please'\n    if mood == 'terrible' or speed \n= 100:\n      print 'You have the right to remain silent.'\n    elif mood == 'bad' or speed \n= 90:\n      print \nI'm going to have to write you a ticket.\n\n      write_ticket()\n    else:\n      print \nLet's try to keep it under 80 ok?\n\n\n\n\nWhile loop\n\n\nPython also has the standard while-loop, and the \nbreak\n and \ncontinue\n statements work as in C++ and Java, altering the course of the innermost loop. The above for/in loops solves the common case of iterating over every element in a list, but the while loop gives you total control over the index numbers. Here\ns a while loop which accesses every 3rd element in a list:\n\n\n  ## Access every 3rd element in a list\n  i = 0\n  while i \n len(a):\n    print a[i]\n    i = i + 3\n\n\n\n\nFor Loop\n\n\nFOR - IN construct\n\n\n\n\nPython\ns \nfor\n and \nin\n constructs are extremely useful.\n\n\nThe \nfor\n construct \n \nfor var in list\n \n is an easy way to look at each element in a list (or other collection). Do not add or remove from the list during iteration.\n\n\n\n\n  squares = [1, 4, 9, 16]\n  sum = 0\n  for num in squares:\n    sum += num\n  print sum  ## 30\n\n\n\n\n\n\nThe \nin\n construct on its own is an easy way to test if an element appears in a list (or other collection) \n \nvalue in collection\n \n tests if the value is in the collection, returning True/False.\n\n\n\n\n  list = ['larry', 'curly', 'moe']\n  if 'curly' in list:\n    print 'yay'\n\n\n\n\nRange \n Xrange\n\n\n\n\nPython for loop iterates over a range of numbers, list of elements.\n\n\nThe \nrange(n)\n function yields the numbers 0, 1, \n n-1, and range(a, b) returns a, a+1, \n b-1 \n\n\n\n\n from socket import *\n\n open_ports = [21, 23, 25, 80, 139, 8080]\n\n \n\n for a in xrange(len(open_ports)):\n...     print \n[+] Port num: {} {} is open.\n.format(open_ports[a], getservbyport(open_ports[a]))\n... \n[+] Port num: 21 ftp is open.\n[+] Port num: 23 telnet is open.\n[+] Port num: 25 smtp is open.\n[+] Port num: 80 http is open.\n[+] Port num: 139 netbios-ssn is open.\n[+] Port num: 8080 http-alt is open.\n\n\n\n\n\n\n\n\nThere is a variant \nxrange()\n which avoids the cost of building the whole list for performance sensitive cases (in Python 3000, range() will have the good performance behavior and you can forget about xrange().", 
+            "title": "Conditions & Loops"
+        }, 
+        {
+            "location": "/conditionals_loops/index.html#ifelifelse", 
+            "text": "Any value can be used as an if-test. The  zero  values all count as false: None, 0, empty string, empty list, empty dictionary.  Comparision operations: ==, !=,  ,  =,  ,  =  The boolean operators are the spelled out words  and ,  or ,  not  (Python does not use the C-style   || !).   \nreturn = scan_target('10.5.0.6')\nif return == 0:\n    print  [+] Scan sucessful!! \n    print packet\nelif return ==1:\n    print  [-] Scan unsucessful!! \n    print  [*] Inspect with wireshark \nelse:\n    print  [!] Unknown error     if speed  = 80:\n    print 'License and registration please'\n    if mood == 'terrible' or speed  = 100:\n      print 'You have the right to remain silent.'\n    elif mood == 'bad' or speed  = 90:\n      print  I'm going to have to write you a ticket. \n      write_ticket()\n    else:\n      print  Let's try to keep it under 80 ok?", 
+            "title": "If/elif/else"
+        }, 
+        {
+            "location": "/conditionals_loops/index.html#while-loop", 
+            "text": "Python also has the standard while-loop, and the  break  and  continue  statements work as in C++ and Java, altering the course of the innermost loop. The above for/in loops solves the common case of iterating over every element in a list, but the while loop gives you total control over the index numbers. Here s a while loop which accesses every 3rd element in a list:    ## Access every 3rd element in a list\n  i = 0\n  while i   len(a):\n    print a[i]\n    i = i + 3", 
+            "title": "While loop"
+        }, 
+        {
+            "location": "/conditionals_loops/index.html#for-loop", 
+            "text": "", 
+            "title": "For Loop"
+        }, 
+        {
+            "location": "/conditionals_loops/index.html#for-in-construct", 
+            "text": "Python s  for  and  in  constructs are extremely useful.  The  for  construct    for var in list    is an easy way to look at each element in a list (or other collection). Do not add or remove from the list during iteration.     squares = [1, 4, 9, 16]\n  sum = 0\n  for num in squares:\n    sum += num\n  print sum  ## 30   The  in  construct on its own is an easy way to test if an element appears in a list (or other collection)    value in collection    tests if the value is in the collection, returning True/False.     list = ['larry', 'curly', 'moe']\n  if 'curly' in list:\n    print 'yay'", 
+            "title": "FOR - IN construct"
+        }, 
+        {
+            "location": "/conditionals_loops/index.html#range-xrange", 
+            "text": "Python for loop iterates over a range of numbers, list of elements.  The  range(n)  function yields the numbers 0, 1,   n-1, and range(a, b) returns a, a+1,   b-1     from socket import *  open_ports = [21, 23, 25, 80, 139, 8080]    for a in xrange(len(open_ports)):\n...     print  [+] Port num: {} {} is open. .format(open_ports[a], getservbyport(open_ports[a]))\n... \n[+] Port num: 21 ftp is open.\n[+] Port num: 23 telnet is open.\n[+] Port num: 25 smtp is open.\n[+] Port num: 80 http is open.\n[+] Port num: 139 netbios-ssn is open.\n[+] Port num: 8080 http-alt is open.    There is a variant  xrange()  which avoids the cost of building the whole list for performance sensitive cases (in Python 3000, range() will have the good performance behavior and you can forget about xrange().", 
+            "title": "Range &amp; Xrange"
+        }, 
+        {
+            "location": "/comprehensions/index.html", 
+            "text": "List Comprehensions\n\n\n\n\nA list comprehension is a compact way to write an expression that expands to a whole list.\n\n\nList comprehension can almost substitute for the lambda function especially as map(), filter() and reduce().\n\n\n\n\n\n\n\n\n\n\n\n\n\nExamples\n\n\n# compute a list of their squares of elements in a list\nnums = [1, 2, 3, 4]\n\nsquares = [ n * n for n in nums ]   ## [1, 4, 9, 16]\n\n\n\n\n port_numbers = [22,25,80,139,443]\n\n [k for k in port_numbers]\n[22, 25, 80, 139, 443]\n\n\n\n numbers = [2,4,6,8] \n\n [k*2 for k in numbers]\n[4, 8, 12, 16]\n\n\n\n\n\n\n\nYou can add an if test to the right of the for-loop to narrow the result. The if test is evaluated for each element, including only the elements where the test is true.\n\n\n\n\n port_numbers = [22,25,80,139,443,8080,9999,55555]\n\n \n\n [k for k in port_numbers if k\n1023]\n[22, 25, 80, 139, 443]\n\n\n\n\n\n\n\nUsing List comprehensions\n\n\nList comprehensions are extremely powerful and compact.\n\nYou might be tempted to use them a lot to optimize your code but readbility matters.\n\nUse comprehensions for optimizing one or two lines but nothing more than that.\n\n\n\n\nDictionary Comprehensions", 
+            "title": "Comprehensions"
+        }, 
+        {
+            "location": "/comprehensions/index.html#list-comprehensions", 
+            "text": "A list comprehension is a compact way to write an expression that expands to a whole list.  List comprehension can almost substitute for the lambda function especially as map(), filter() and reduce().", 
+            "title": "List Comprehensions"
+        }, 
+        {
+            "location": "/comprehensions/index.html#examples", 
+            "text": "# compute a list of their squares of elements in a list\nnums = [1, 2, 3, 4]\n\nsquares = [ n * n for n in nums ]   ## [1, 4, 9, 16]   port_numbers = [22,25,80,139,443]  [k for k in port_numbers]\n[22, 25, 80, 139, 443]   numbers = [2,4,6,8]   [k*2 for k in numbers]\n[4, 8, 12, 16]   You can add an if test to the right of the for-loop to narrow the result. The if test is evaluated for each element, including only the elements where the test is true.    port_numbers = [22,25,80,139,443,8080,9999,55555]    [k for k in port_numbers if k 1023]\n[22, 25, 80, 139, 443]   Using List comprehensions  List comprehensions are extremely powerful and compact. \nYou might be tempted to use them a lot to optimize your code but readbility matters. \nUse comprehensions for optimizing one or two lines but nothing more than that.", 
+            "title": "Examples"
+        }, 
+        {
+            "location": "/comprehensions/index.html#dictionary-comprehensions", 
+            "text": "", 
+            "title": "Dictionary Comprehensions"
+        }, 
+        {
+            "location": "/regex/index.html", 
+            "text": "/^[Reg]ular [Ex]pression$/\n\n\n\n\nRegular expressions are a powerful language for matching text patterns.\n\n\nThe syntax of regular expressions is the same for all programming and script languages, e.g. Python, Perl, Java, SED, AWK etc.\n\n\nThe Python \nre\n module provides regular expression support.\n\n\n\n\n\nIn Python a regular expression search is typically written as: \nmatch = re.search(pat, str)\n\n\n\n\n\n\nThe re.search() method takes a regular expression pattern and a string and searches for that pattern within the string. If the search is successful, search() returns a match object or None otherwise. Therefore, the search is usually immediately followed by an if-statement to test if the search succeeded.\n\n\n\n\n\n\nstr = 'an example word:cat!!'\nmatch = re.search(r'word:\\w\\w\\w', str)\n\n# If-statement after search() tests if it succeeded\n  if match:                      \n    print 'found', match.group() ## 'found word:cat'\n  else:\n    print 'did not find'\n\n\n\n\n\nBasic Patterns\n\n\nRefer to reference documents directory for python pattern matching cheat sheets.\n\n\n^\n matches the beginning of a string.\n\n\n$\n matches the end of a string.\n\n\n\\b\n matches a word boundary.\n\n\n\\d\n matches any numeric digit.\n\n\n\\D\n matches any non-numeric character.\n\n\nx?\n matches an optional x character (in other words, it matches an x zero or one times).\n\n\nx*\n matches x zero or more times.\n\n\nx+\n matches x one or more times.\n\n\nx{n,m}\n matches an x character at least n times, but not more than m times.\n\n\n(a|b|c)\n matches exactly one of a, b or c.\n\n\n(x)\n in general is a remembered group. You can get the value of what matched by using the groups() method of the object returned by re.search.\n\n\nBasic Examples\n\n\nJoke: what do you call a pig with three eyes? piiig!\n\n\nThe basic rules of regular expression search for a pattern within a string are:\n\n\n\n\nThe search proceeds through the string from start to end, stopping at the first match found\n\n\nAll of the pattern must be matched, but not all of the string\n\n\nIf match = re.search(pat, str) is successful, match is not None and in particular match.group() is the matching text\n\n\n\n\n  ## Search for pattern 'iii' in string 'piiig'.\n  ## All of the pattern must match, but it may appear anywhere.\n  ## On success, match.group() is matched text.\n  match = re.search(r'iii', 'piiig') =\n  found, match.group() == \niii\n\n  match = re.search(r'igs', 'piiig') =\n  not found, match == None\n\n  ## . = any char but \\n\n  match = re.search(r'..g', 'piiig') =\n  found, match.group() == \niig\n\n\n  ## \\d = digit char, \\w = word char\n  match = re.search(r'\\d\\d\\d', 'p123g') =\n  found, match.group() == \n123\n\n  match = re.search(r'\\w\\w\\w', '@@abcd!!') =\n  found, match.group() == \nabc\n\n\n\n\n\nRepetition\n\n\nThings get more interesting when you use + and * to specify repetition in the pattern\n\n\n\n\n+\n \n 1 or more occurrences of the pattern to its left, e.g. \ni+\n = one or more i\ns\n\n\n*\n \n 0 or more occurrences of the pattern to its left\n\n\n?\n \n match 0 or 1 occurrences of the pattern to its left\n\n\n\n\nLeftmost \n Largest\n\n\nFirst the search finds the leftmost match for the pattern, and second it tries to use up as much of the string as possible \n--\n i.e. \n+\n and \n*\n go as far as possible (the \n+\n and \n*\n are said to be \ngreedy\n).\n\n\nRepetition Examples\n\n\n  ## i+ = one or more i's, as many as possible.\n  match = re.search(r'pi+', 'piiig') =\n  found, match.group() == \npiii\n\n\n  ## Finds the first/leftmost solution, and within it drives the +\n  ## as far as possible (aka 'leftmost and largest').\n  ## In this example, note that it does not get to the second set of i's.\n  match = re.search(r'i+', 'piigiiii') =\n  found, match.group() == \nii\n\n\n  ## \\s* = zero or more whitespace chars\n  ## Here look for 3 digits, possibly separated by whitespace.\n  match = re.search(r'\\d\\s*\\d\\s*\\d', 'xx1 2   3xx') =\n  found, match.group() == \n1 2   3\n\n  match = re.search(r'\\d\\s*\\d\\s*\\d', 'xx12  3xx') =\n  found, match.group() == \n12  3\n\n  match = re.search(r'\\d\\s*\\d\\s*\\d', 'xx123xx') =\n  found, match.group() == \n123\n\n\n  ## ^ = matches the start of string, so this fails:\n  match = re.search(r'^b\\w+', 'foobar') =\n  not found, match == None\n  ## but without the ^ it succeeds:\n  match = re.search(r'b\\w+', 'foobar') =\n  found, match.group() == \nbar\n\n\n\n\n\nEmails Example\n\n\nSuppose you want to find the email address inside the string \nxyz alice-b@google.com purple monkey\n. We\nll use this as a running example to demonstrate more regular expression features. Here\ns an attempt using the pattern \nr'\\w+@\\w+'\n:\n\n\n  str = 'purple alice-b@google.com monkey dishwasher'\n  match = re.search(r'\\w+@\\w+', str)\n  if match:\n    print match.group()  ## 'b@google'\n\n\n\n\nThe search does not get the whole email address in this case because the \\w does not match the \n'-'\n or \n'.'\n in the address. We\nll fix this using the regular expression features below.\n\n\nSquare Brackets\n\n\nSquare brackets can be used to indicate a set of chars, so \n[abc]\n matches \na\n or \nb\n or \nc\n. The codes \n\\w\n, \n\\s\n etc. work inside square brackets too with the one exception that dot (.) just means a literal dot. For the emails problem, the square brackets are an easy way to add \n'.'\n and \n'-'\n to the set of chars which can appear around the @ with the pattern \nr'[\\w.-]+@[\\w.-]+'\n to get the whole email address:\n\n\n  match = re.search(r'[\\w.-]+@[\\w.-]+', str)\n  if match:\n    print match.group()  ## 'alice-b@google.com'\n\n\n\n\n\n(More square-bracket features) You can also use a dash to indicate a range, so \n[a-z]\n matches all lowercase letters. To use a dash without indicating a range, put the dash last, e.g. \n[abc-]\n. An up-hat \n(^)\n at the start of a square-bracket set inverts it, so \n[^ab]\n means any char except \na\n or \nb\n.\n\n\nGroup Extraction\n\n\nThe \ngroup\n feature of a regular expression allows you to pick out parts of the matching text. Suppose for the emails problem that we want to extract the username and host separately. To do this, add parenthesis ( ) around the username and host in the pattern, like this: \nr'([\\w.-]+)@([\\w.-]+)'\n. In this case, the parenthesis do not change what the pattern will match, instead they establish logical \ngroups\n inside of the match text. On a successful search, match.group(1) is the match text corresponding to the 1st left parenthesis, and match.group(2) is the text corresponding to the 2nd left parenthesis. The plain match.group() is still the whole match text as usual.\n\n\n  str = 'purple alice-b@google.com monkey dishwasher'\n  match = re.search('([\\w.-]+)@([\\w.-]+)', str)\n  if match:\n    print match.group()   ## 'alice-b@google.com' (the whole match)\n    print match.group(1)  ## 'alice-b' (the username, group 1)\n    print match.group(2)  ## 'google.com' (the host, group 2)\n\n\n\n\nA common workflow with regular expressions is that you write a pattern for the thing you are looking for, adding parenthesis groups to extract the parts you want.\n\n\nfindall\n\n\nfindall() is probably the single most powerful function in the re module. Above we used re.search() to find the first match for a pattern. findall() finds \nall\n the matches and returns them as a list of strings, with each string representing one match.\n\n\n  ## Suppose we have a text with many email addresses\n  str = 'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'\n\n  ## Here re.findall() returns a list of all the found email strings\n  emails = re.findall(r'[\\w\\.-]+@[\\w\\.-]+', str) ## ['alice@google.com', 'bob@abc.com']\n  for email in emails:\n    # do something with each found email string\n    print email\n\n\n\n\nfindall With Files\n\n\nFor files, you may be in the habit of writing a loop to iterate over the lines of the file, and you could then call findall() on each line. Instead, let findall() do the iteration for you \n much better! Just feed the whole file text into findall() and let it return a list of all the matches in a single step (recall that f.read() returns the whole text of a file in a single string):\n\n\n  # Open file\n  f = open('test.txt', 'r')\n  # Feed the file text into findall(); it returns a list of all the found strings\n  strings = re.findall(r'some pattern', f.read())\n\n\n\n\nfindall and Groups\n\n\nThe parenthesis ( ) group mechanism can be combined with findall(). If the pattern includes 2 or more parenthesis groups, then instead of returning a list of strings, findall() returns a list of \ntuples\n. Each tuple represents one match of the pattern, and inside the tuple is the group(1), group(2) .. data. So if 2 parenthesis groups are added to the email pattern, then findall() returns a list of tuples, each length 2 containing the username and host, e.g. (\nalice\n, \ngoogle.com\n).\n\n\n  str = 'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'\n  tuples = re.findall(r'([\\w\\.-]+)@([\\w\\.-]+)', str)\n  print tuples  ## [('alice', 'google.com'), ('bob', 'abc.com')]\n  for tuple in tuples:\n    print tuple[0]  ## username\n    print tuple[1]  ## host\n\n\n\n\nOnce you have the list of tuples, you can loop over it to do some computation for each tuple. If the pattern includes no parenthesis, then findall() returns a list of found strings as in earlier examples. If the pattern includes a single set of parenthesis, then findall() returns a list of strings corresponding to that single group. (Obscure optional feature: Sometimes you have paren ( ) groupings in the pattern, but which you do not want to extract. In that case, write the parens with a ?: at the start, e.g. (?: ) and that left paren will not count as a group result.)\n\n\nRE Workflow and Debug\n\n\nRegular expression patterns pack a lot of meaning into just a few characters , but they are so dense, you can spend a lot of time debugging your patterns. Set up your runtime so you can run a pattern and print what it matches easily, for example by running it on a small test text and printing the result of findall(). If the pattern matches nothing, try weakening the pattern, removing parts of it so you get too many matches. When it\ns matching nothing, you can\nt make any progress since there\ns nothing concrete to look at. Once it\ns matching too much, then you can work on tightening it up incrementally to hit just what you want.\n\n\nOptions\n\n\nThe re functions take options to modify the behavior of the pattern match. The option flag is added as an extra argument to the search() or findall() etc., e.g. re.search(pat, str, re.IGNORECASE).\n\n\n\n\nIGNORECASE\n - ignore upper/lowercase differences for matching, so \na\n matches both \na\n and \nA\n.\n\n\nDOTALL\n - allow dot (.) to match newline \n normally it matches anything but newline. This can trip you up \n you think \n.*\n matches everything, but by default it does not go past the end of a line. Note that \n\\s\n (whitespace) includes newlines, so if you want to match a run of whitespace that may include a newline, you can just use \n\\s*\n\n\nMULTILINE\n - Within a string made of many lines, allow \n^\n and \n$\n to match the start and end of each line. Normally \n^/$\n would just match the start and end of the whole string.", 
+            "title": "Regex"
+        }, 
+        {
+            "location": "/regex/index.html#regular-expression", 
+            "text": "Regular expressions are a powerful language for matching text patterns.  The syntax of regular expressions is the same for all programming and script languages, e.g. Python, Perl, Java, SED, AWK etc.  The Python  re  module provides regular expression support.   In Python a regular expression search is typically written as:  match = re.search(pat, str)    The re.search() method takes a regular expression pattern and a string and searches for that pattern within the string. If the search is successful, search() returns a match object or None otherwise. Therefore, the search is usually immediately followed by an if-statement to test if the search succeeded.    str = 'an example word:cat!!'\nmatch = re.search(r'word:\\w\\w\\w', str)\n\n# If-statement after search() tests if it succeeded\n  if match:                      \n    print 'found', match.group() ## 'found word:cat'\n  else:\n    print 'did not find'", 
+            "title": "/^[Reg]ular [Ex]pression$/"
+        }, 
+        {
+            "location": "/regex/index.html#basic-patterns", 
+            "text": "Refer to reference documents directory for python pattern matching cheat sheets.  ^  matches the beginning of a string.  $  matches the end of a string.  \\b  matches a word boundary.  \\d  matches any numeric digit.  \\D  matches any non-numeric character.  x?  matches an optional x character (in other words, it matches an x zero or one times).  x*  matches x zero or more times.  x+  matches x one or more times.  x{n,m}  matches an x character at least n times, but not more than m times.  (a|b|c)  matches exactly one of a, b or c.  (x)  in general is a remembered group. You can get the value of what matched by using the groups() method of the object returned by re.search.", 
+            "title": "Basic Patterns"
+        }, 
+        {
+            "location": "/regex/index.html#basic-examples", 
+            "text": "Joke: what do you call a pig with three eyes? piiig!  The basic rules of regular expression search for a pattern within a string are:   The search proceeds through the string from start to end, stopping at the first match found  All of the pattern must be matched, but not all of the string  If match = re.search(pat, str) is successful, match is not None and in particular match.group() is the matching text     ## Search for pattern 'iii' in string 'piiig'.\n  ## All of the pattern must match, but it may appear anywhere.\n  ## On success, match.group() is matched text.\n  match = re.search(r'iii', 'piiig') =   found, match.group() ==  iii \n  match = re.search(r'igs', 'piiig') =   not found, match == None\n\n  ## . = any char but \\n\n  match = re.search(r'..g', 'piiig') =   found, match.group() ==  iig \n\n  ## \\d = digit char, \\w = word char\n  match = re.search(r'\\d\\d\\d', 'p123g') =   found, match.group() ==  123 \n  match = re.search(r'\\w\\w\\w', '@@abcd!!') =   found, match.group() ==  abc", 
+            "title": "Basic Examples"
+        }, 
+        {
+            "location": "/regex/index.html#repetition", 
+            "text": "Things get more interesting when you use + and * to specify repetition in the pattern   +    1 or more occurrences of the pattern to its left, e.g.  i+  = one or more i s  *    0 or more occurrences of the pattern to its left  ?    match 0 or 1 occurrences of the pattern to its left", 
+            "title": "Repetition"
+        }, 
+        {
+            "location": "/regex/index.html#leftmost-largest", 
+            "text": "First the search finds the leftmost match for the pattern, and second it tries to use up as much of the string as possible  --  i.e.  +  and  *  go as far as possible (the  +  and  *  are said to be  greedy ).", 
+            "title": "Leftmost &amp; Largest"
+        }, 
+        {
+            "location": "/regex/index.html#repetition-examples", 
+            "text": "## i+ = one or more i's, as many as possible.\n  match = re.search(r'pi+', 'piiig') =   found, match.group() ==  piii \n\n  ## Finds the first/leftmost solution, and within it drives the +\n  ## as far as possible (aka 'leftmost and largest').\n  ## In this example, note that it does not get to the second set of i's.\n  match = re.search(r'i+', 'piigiiii') =   found, match.group() ==  ii \n\n  ## \\s* = zero or more whitespace chars\n  ## Here look for 3 digits, possibly separated by whitespace.\n  match = re.search(r'\\d\\s*\\d\\s*\\d', 'xx1 2   3xx') =   found, match.group() ==  1 2   3 \n  match = re.search(r'\\d\\s*\\d\\s*\\d', 'xx12  3xx') =   found, match.group() ==  12  3 \n  match = re.search(r'\\d\\s*\\d\\s*\\d', 'xx123xx') =   found, match.group() ==  123 \n\n  ## ^ = matches the start of string, so this fails:\n  match = re.search(r'^b\\w+', 'foobar') =   not found, match == None\n  ## but without the ^ it succeeds:\n  match = re.search(r'b\\w+', 'foobar') =   found, match.group() ==  bar", 
+            "title": "Repetition Examples"
+        }, 
+        {
+            "location": "/regex/index.html#emails-example", 
+            "text": "Suppose you want to find the email address inside the string  xyz alice-b@google.com purple monkey . We ll use this as a running example to demonstrate more regular expression features. Here s an attempt using the pattern  r'\\w+@\\w+' :    str = 'purple alice-b@google.com monkey dishwasher'\n  match = re.search(r'\\w+@\\w+', str)\n  if match:\n    print match.group()  ## 'b@google'  The search does not get the whole email address in this case because the \\w does not match the  '-'  or  '.'  in the address. We ll fix this using the regular expression features below.", 
+            "title": "Emails Example"
+        }, 
+        {
+            "location": "/regex/index.html#square-brackets", 
+            "text": "Square brackets can be used to indicate a set of chars, so  [abc]  matches  a  or  b  or  c . The codes  \\w ,  \\s  etc. work inside square brackets too with the one exception that dot (.) just means a literal dot. For the emails problem, the square brackets are an easy way to add  '.'  and  '-'  to the set of chars which can appear around the @ with the pattern  r'[\\w.-]+@[\\w.-]+'  to get the whole email address:    match = re.search(r'[\\w.-]+@[\\w.-]+', str)\n  if match:\n    print match.group()  ## 'alice-b@google.com'  (More square-bracket features) You can also use a dash to indicate a range, so  [a-z]  matches all lowercase letters. To use a dash without indicating a range, put the dash last, e.g.  [abc-] . An up-hat  (^)  at the start of a square-bracket set inverts it, so  [^ab]  means any char except  a  or  b .", 
+            "title": "Square Brackets"
+        }, 
+        {
+            "location": "/regex/index.html#group-extraction", 
+            "text": "The  group  feature of a regular expression allows you to pick out parts of the matching text. Suppose for the emails problem that we want to extract the username and host separately. To do this, add parenthesis ( ) around the username and host in the pattern, like this:  r'([\\w.-]+)@([\\w.-]+)' . In this case, the parenthesis do not change what the pattern will match, instead they establish logical  groups  inside of the match text. On a successful search, match.group(1) is the match text corresponding to the 1st left parenthesis, and match.group(2) is the text corresponding to the 2nd left parenthesis. The plain match.group() is still the whole match text as usual.    str = 'purple alice-b@google.com monkey dishwasher'\n  match = re.search('([\\w.-]+)@([\\w.-]+)', str)\n  if match:\n    print match.group()   ## 'alice-b@google.com' (the whole match)\n    print match.group(1)  ## 'alice-b' (the username, group 1)\n    print match.group(2)  ## 'google.com' (the host, group 2)  A common workflow with regular expressions is that you write a pattern for the thing you are looking for, adding parenthesis groups to extract the parts you want.", 
+            "title": "Group Extraction"
+        }, 
+        {
+            "location": "/regex/index.html#findall", 
+            "text": "findall() is probably the single most powerful function in the re module. Above we used re.search() to find the first match for a pattern. findall() finds  all  the matches and returns them as a list of strings, with each string representing one match.    ## Suppose we have a text with many email addresses\n  str = 'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'\n\n  ## Here re.findall() returns a list of all the found email strings\n  emails = re.findall(r'[\\w\\.-]+@[\\w\\.-]+', str) ## ['alice@google.com', 'bob@abc.com']\n  for email in emails:\n    # do something with each found email string\n    print email", 
+            "title": "findall"
+        }, 
+        {
+            "location": "/regex/index.html#findall-with-files", 
+            "text": "For files, you may be in the habit of writing a loop to iterate over the lines of the file, and you could then call findall() on each line. Instead, let findall() do the iteration for you   much better! Just feed the whole file text into findall() and let it return a list of all the matches in a single step (recall that f.read() returns the whole text of a file in a single string):    # Open file\n  f = open('test.txt', 'r')\n  # Feed the file text into findall(); it returns a list of all the found strings\n  strings = re.findall(r'some pattern', f.read())", 
+            "title": "findall With Files"
+        }, 
+        {
+            "location": "/regex/index.html#findall-and-groups", 
+            "text": "The parenthesis ( ) group mechanism can be combined with findall(). If the pattern includes 2 or more parenthesis groups, then instead of returning a list of strings, findall() returns a list of  tuples . Each tuple represents one match of the pattern, and inside the tuple is the group(1), group(2) .. data. So if 2 parenthesis groups are added to the email pattern, then findall() returns a list of tuples, each length 2 containing the username and host, e.g. ( alice ,  google.com ).    str = 'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'\n  tuples = re.findall(r'([\\w\\.-]+)@([\\w\\.-]+)', str)\n  print tuples  ## [('alice', 'google.com'), ('bob', 'abc.com')]\n  for tuple in tuples:\n    print tuple[0]  ## username\n    print tuple[1]  ## host  Once you have the list of tuples, you can loop over it to do some computation for each tuple. If the pattern includes no parenthesis, then findall() returns a list of found strings as in earlier examples. If the pattern includes a single set of parenthesis, then findall() returns a list of strings corresponding to that single group. (Obscure optional feature: Sometimes you have paren ( ) groupings in the pattern, but which you do not want to extract. In that case, write the parens with a ?: at the start, e.g. (?: ) and that left paren will not count as a group result.)", 
+            "title": "findall and Groups"
+        }, 
+        {
+            "location": "/regex/index.html#re-workflow-and-debug", 
+            "text": "Regular expression patterns pack a lot of meaning into just a few characters , but they are so dense, you can spend a lot of time debugging your patterns. Set up your runtime so you can run a pattern and print what it matches easily, for example by running it on a small test text and printing the result of findall(). If the pattern matches nothing, try weakening the pattern, removing parts of it so you get too many matches. When it s matching nothing, you can t make any progress since there s nothing concrete to look at. Once it s matching too much, then you can work on tightening it up incrementally to hit just what you want.", 
+            "title": "RE Workflow and Debug"
+        }, 
+        {
+            "location": "/regex/index.html#options", 
+            "text": "The re functions take options to modify the behavior of the pattern match. The option flag is added as an extra argument to the search() or findall() etc., e.g. re.search(pat, str, re.IGNORECASE).   IGNORECASE  - ignore upper/lowercase differences for matching, so  a  matches both  a  and  A .  DOTALL  - allow dot (.) to match newline   normally it matches anything but newline. This can trip you up   you think  .*  matches everything, but by default it does not go past the end of a line. Note that  \\s  (whitespace) includes newlines, so if you want to match a run of whitespace that may include a newline, you can just use  \\s*  MULTILINE  - Within a string made of many lines, allow  ^  and  $  to match the start and end of each line. Normally  ^/$  would just match the start and end of the whole string.", 
+            "title": "Options"
+        }, 
+        {
+            "location": "/admin_utilities/index.html", 
+            "text": "Utilities\n\n\nOS Module\n\n\nshutils\n\n\nsubprocess", 
+            "title": "Admin utilities"
+        }, 
+        {
+            "location": "/admin_utilities/index.html#utilities", 
+            "text": "", 
+            "title": "Utilities"
+        }, 
+        {
+            "location": "/admin_utilities/index.html#os-module", 
+            "text": "", 
+            "title": "OS Module"
+        }, 
+        {
+            "location": "/admin_utilities/index.html#shutils", 
+            "text": "", 
+            "title": "shutils"
+        }, 
+        {
+            "location": "/admin_utilities/index.html#subprocess", 
+            "text": "", 
+            "title": "subprocess"
+        }, 
+        {
+            "location": "/web_utilities/index.html", 
+            "text": "Web Utilities\n\n\nurllib and urlparse", 
+            "title": "Web utilities"
+        }, 
+        {
+            "location": "/web_utilities/index.html#web-utilities", 
+            "text": "", 
+            "title": "Web Utilities"
+        }, 
+        {
+            "location": "/web_utilities/index.html#urllib-and-urlparse", 
+            "text": "", 
+            "title": "urllib and urlparse"
+        }, 
+        {
+            "location": "/commandline_parsing/index.html", 
+            "text": "Writing beautiful commandline utilities\n\n\n\n\nCommand-line style tools are very effective.\n\n\nPython has lots of libraries to assist in writing command line utilities as part of it\u2019s standard library and also third party libraries.\n\n\nArgparse, Argh, Optparse, Docopt, Click.. are some modules available.\n\n\n\n\nArgparse\n\n\n\n\nPart of Python standard library(Set to take over optparse which is depricated).", 
+            "title": "Commandine Parsing"
+        }, 
+        {
+            "location": "/commandline_parsing/index.html#writing-beautiful-commandline-utilities", 
+            "text": "Command-line style tools are very effective.  Python has lots of libraries to assist in writing command line utilities as part of it\u2019s standard library and also third party libraries.  Argparse, Argh, Optparse, Docopt, Click.. are some modules available.", 
+            "title": "Writing beautiful commandline utilities"
+        }, 
+        {
+            "location": "/commandline_parsing/index.html#argparse", 
+            "text": "Part of Python standard library(Set to take over optparse which is depricated).", 
+            "title": "Argparse"
+        }, 
+        {
+            "location": "/feedback/index.html", 
+            "text": "Feedback \n Suggestions\n\n\n\n\npythonhumla@gmail.com\n\n\nGive anonymous feedback at \nhttps://www.suggestionox.com/r/pythonhumla\n\n\n\n\nCredits\n\n\nnull - The Open Security Community. \n |  \n \nhttp://swachalit.null.co.in/\n\nGoogle edu for their free-to-share Python bootcamp. \n |  \n \nhttps://developers.google.com/edu/python/\n\nPRS Legislative Research for their fantastic data. \n |  \n \nhttp://www.prsindia.org/mptrack\n\nBernd Klein for the awesome free python course. \n |  \n \npython-course.eu\n\nTom Christie, Dougal Matthews for their beautiful documentation generator \n |  \n \nmkdocs.org", 
+            "title": "Feedback"
+        }, 
+        {
+            "location": "/feedback/index.html#feedback-suggestions", 
+            "text": "pythonhumla@gmail.com  Give anonymous feedback at  https://www.suggestionox.com/r/pythonhumla", 
+            "title": "Feedback &amp; Suggestions"
+        }, 
+        {
+            "location": "/feedback/index.html#credits", 
+            "text": "null - The Open Security Community.   |     http://swachalit.null.co.in/ \nGoogle edu for their free-to-share Python bootcamp.   |     https://developers.google.com/edu/python/ \nPRS Legislative Research for their fantastic data.   |     http://www.prsindia.org/mptrack \nBernd Klein for the awesome free python course.   |     python-course.eu \nTom Christie, Dougal Matthews for their beautiful documentation generator   |     mkdocs.org", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/log_parsing/index.html", 
+            "text": "LOG Parsing\n\n\nApache log parsing\n\n\nTask I\n\n- Extract the client IP, Request type and bytes served fields using regex from the apache access log.\n\n\nTask II\n\n- Read apache access log and count number of times each individual IP address of a client has occured in the log file.", 
+            "title": "Log parsing"
+        }, 
+        {
+            "location": "/log_parsing/index.html#log-parsing", 
+            "text": "", 
+            "title": "LOG Parsing"
+        }, 
+        {
+            "location": "/log_parsing/index.html#apache-log-parsing", 
+            "text": "Task I \n- Extract the client IP, Request type and bytes served fields using regex from the apache access log.  Task II \n- Read apache access log and count number of times each individual IP address of a client has occured in the log file.", 
+            "title": "Apache log parsing"
+        }, 
+        {
+            "location": "/mptrack/index.html", 
+            "text": "MP Track\n\n\nBackground\n\n\nPRS Legislative Research has a fantastic collection of data on Member of Parliaments performance for every season(since 2014). All the data is provided under Creative Commons Attribution 4.0 International License. \nhttp://www.prsindia.org/mptrack\n \n\n\nMP Track - Exercise I\n\n\nProvided:\n csv file with member of parliaments performance data.\n\n\nTasks:\n \n\n\n\n\nExtract member name, constituency, number of questions asked, attendence fields using regex.\n\n\nSort the data based on user input choice.\n\n\nPrint the sorted output.\n\n\n(Boiler plate program is provided in the exercise directory. Commandline parsing provided)\n\n\n\n\nMP Track - Exercise II\n\n\nProvided:\n Bunch of csv files. Each file has all the member of parliaments performance data for a season.\n\n\nTasks:\n \n\n\n\n\nFor each filename provided by user, read the file and extract member name, constituency, questions, attendence fields using regex.\n\n\nSort the data based on user input choice.\n\n\nWrite the sorted output to a file.\n\n\n(Boiler plate program is provided in the exercise directory. Commandline parsing provided)", 
+            "title": "MP Track"
+        }, 
+        {
+            "location": "/mptrack/index.html#mp-track", 
+            "text": "", 
+            "title": "MP Track"
+        }, 
+        {
+            "location": "/mptrack/index.html#background", 
+            "text": "PRS Legislative Research has a fantastic collection of data on Member of Parliaments performance for every season(since 2014). All the data is provided under Creative Commons Attribution 4.0 International License.  http://www.prsindia.org/mptrack", 
+            "title": "Background"
+        }, 
+        {
+            "location": "/mptrack/index.html#mp-track-exercise-i", 
+            "text": "Provided:  csv file with member of parliaments performance data.  Tasks:     Extract member name, constituency, number of questions asked, attendence fields using regex.  Sort the data based on user input choice.  Print the sorted output. \n(Boiler plate program is provided in the exercise directory. Commandline parsing provided)", 
+            "title": "MP Track - Exercise I"
+        }, 
+        {
+            "location": "/mptrack/index.html#mp-track-exercise-ii", 
+            "text": "Provided:  Bunch of csv files. Each file has all the member of parliaments performance data for a season.  Tasks:     For each filename provided by user, read the file and extract member name, constituency, questions, attendence fields using regex.  Sort the data based on user input choice.  Write the sorted output to a file. \n(Boiler plate program is provided in the exercise directory. Commandline parsing provided)", 
+            "title": "MP Track - Exercise II"
+        }
+    ]
+}

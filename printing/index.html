@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Bharath(yamakira_)">
+  
+  <title>Printing - Python - Foundations</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Printing";
+    var mkdocs_page_input_path = "printing.md";
+    var mkdocs_page_url = "/printing/index.html";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Python - Foundations</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../index.html">Title</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Workshop intro</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../license/index.html">License</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../bigger_picture/index.html">Bigger picture</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../speakers/index.html">Speakers</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../workshop_settings/index.html">Workshop settings</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Course</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../language_intro/index.html">Language intro</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../modes/index.html">Modes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../syntax_styling/index.html">Syntax & Styling</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../objects/index.html">objects</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../introspection/index.html">Introspection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../strings/index.html">Strings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../data_structures/index.html">Data Structures</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../sorting/index.html">Sorting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../functions/index.html">Functions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../importing/index.html">Importing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="index.html">Printing</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#print-as-a-statement">print as a statement</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#print-as-a-function">print as a function</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#c-style-format-strings">C-Style format strings</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#pythonic-style-string-format-method">Pythonic style - string format method.</a></li>
+                
+                    <li><a class="toctree-l4" href="#placeholders">Placeholders</a></li>
+                
+                    <li><a class="toctree-l4" href="#padding-and-aligning-strings">Padding and aligning strings</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#sysstdoutwrite">sys.stdout.write()</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../conditionals_loops/index.html">Conditions & Loops</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../comprehensions/index.html">Comprehensions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../regex/index.html">Regex</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../admin_utilities/index.html">Admin utilities</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../web_utilities/index.html">Web utilities</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../commandline_parsing/index.html">Commandine Parsing</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Epilogue</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../feedback/index.html">Feedback</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Exercises</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../log_parsing/index.html">Log parsing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mptrack/index.html">MP Track</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Python - Foundations</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Python Course &raquo;</li>
+        
+      
+    
+    <li>Printing</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="print-as-a-statement"><code>print</code> as a statement</h2>
+<ul>
+<li>In <strong>Python2.X <code>print</code> is a statement</strong> not a function.</li>
+<li>Very intutive but not very powerful.</li>
+</ul>
+<pre><code class="python">&gt;&gt;&gt; answer = 42
+&gt;&gt;&gt; print &quot;The answer is: &quot; + str(answer)
+The answer is: 42
+</code></pre>
+
+<h2 id="print-as-a-function"><code>print</code> as a function</h2>
+<ul>
+<li>In <strong>Python 3.X <code>print</code> is a function</strong> which gives it more control on how to print stuff.</li>
+<li>You can import print funtion into python 2.7.X using the statement <strong><code>from future import print_function</code></strong></li>
+<li>I would recommend using print as a function even in Python2.X, for one your code will be more compatiable with Python3.X and also print function gives you more control on the output.</li>
+</ul>
+<pre><code class="python">&gt;&gt;&gt; from __future__ import print_function       # This internally sets a flag that lets interpreter enable print function
+&gt;&gt;&gt; answer = 42
+&gt;&gt;&gt; print('The answer is: '+str(42))
+The answer is: 42
+</code></pre>
+
+<ul>
+<li>Print as a funtion can take arguments which provide more control on how you ptint stuff.</li>
+</ul>
+<pre><code class="python">print(value1, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+#
+#    file: a file-like object (stream); defaults to the current sys.stdout.
+#    sep:  string inserted between values, default a space.
+#    end:  string appended after the last value, default a newline.
+#
+</code></pre>
+
+<ul>
+<li>With the <code>end</code> argument you can choose what is appended as the last value.</li>
+</ul>
+<pre><code class="python"># Building a simple NOP sled for memory exploits
+# Only one of the output works for a NOP sled. Which one? Why?(Out of this workshop context though)
+&gt;&gt;&gt;
+&gt;&gt;&gt; print('\x90'*30)
+������������������������������
+&gt;&gt;&gt; 
+&gt;&gt;&gt; print('\x90'*30, end='')
+������������������������������&gt;&gt;&gt; 
+&gt;&gt;&gt;
+</code></pre>
+
+<ul>
+<li>By redefining the keyword parameter <code>file</code> we can send the output into a different stream e.g. to a file or stderr</li>
+</ul>
+<pre><code class="python">&gt;&gt;&gt; fh = open(&quot;data.txt&quot;,&quot;w&quot;)
+&gt;&gt;&gt; print(&quot;42 is the answer, but what is the question?&quot;, file=fh) 
+&gt;&gt;&gt; fh.close()      # we see no ouput  to console after print because it's directed into the file fh
+</code></pre>
+
+<h2 id="c-style-format-strings">C-Style format strings</h2>
+<ul>
+<li>The nearest thing to c-style printf equivalent in python.</li>
+<li><code>'%s %s' % ('one', 'two')</code></li>
+</ul>
+<p>
+<img src="../img/format_string.png" style="display:block; margin:0 auto" alt="format string" width="500">
+</p>
+
+<pre><code class="python">&gt;&gt;&gt; port_number = 139
+&gt;&gt;&gt; 
+&gt;&gt;&gt; host = '10.5.0.6'
+&gt;&gt;&gt; 
+&gt;&gt;&gt; print &quot;Port num: %d is open on Host: %s&quot;%(port_number, host)
+Port num: 139 is open on Host: 10.5.0.6
+</code></pre>
+
+<p><br></p>
+<p>For more on format string modulo: <a href="http://www.python-course.eu/python3_formatted_output.php">http://www.python-course.eu/python3_formatted_output.php</a> </p>
+<h2 id="pythonic-style-string-format-method">Pythonic style - string format method.</h2>
+<ul>
+<li>
+<p>Python has awesome string formatters to produce beautifully formatted output.</p>
+</li>
+<li>
+<p>The &ldquo;fields to be replaced&rdquo; are surrounded by curly braces {}.
+&nbsp;<code>'{} {}'.format('one', 'two')</code></p>
+</li>
+</ul>
+<pre><code class="python">&gt;&gt;&gt; print &quot;[+] Port num: {} on host {} is open.&quot;.format(port_number, hostname)
+</code></pre>
+
+<h3 id="placeholders">Placeholders</h3>
+<ul>
+<li>Python string format method supports placeholders and an explicit positional index. &nbsp;<code>{1} {0}'.format('one', 'two')</code></li>
+<li>A positional parameter of the format method can be accessed by placing the index of the parameter after the opening brace, e.g. {0} accesses the first parameter.</li>
+</ul>
+<p>
+<img src="../img/format_method.png" style="display:block; margin:0 auto" alt="format string" width="500">
+</p>
+
+<p><br>
+- Keywords can be used to index parameters as well.(Named placeholders)</p>
+<pre><code class="python">&gt;&gt;&gt; &quot;Art: {a:5d},  Price: {p:8.2f}&quot;.format(a=453, p=59.058)
+'Art:   453,  Price:    59.06'
+&gt;&gt;&gt; 
+</code></pre>
+
+<h3 id="padding-and-aligning-strings">Padding and aligning strings</h3>
+<p>By default values are formatted to take up only as many characters as needed to represent the content. It is however also possible to define that a value should be padded to a specific length.</p>
+<ul>
+<li>We can precede the formatting with a &ldquo;&lt;&rdquo; (left justify) or &ldquo;&gt;&rdquo; (right justify)</li>
+</ul>
+<pre><code class="python">&gt;&gt;&gt; '{:&gt;10}'.format('test')                             # right align
+'      test'
+&gt;&gt;&gt;
+&gt;&gt;&gt; &quot;{0:&lt;20s} {1:6.2f}&quot;.format('Spam &amp; Eggs:', 6.99)    # left align
+'Spam &amp; Eggs:           6.99'
+&gt;&gt;&gt;
+&gt;&gt;&gt;'{:^10}'.format('test')                          #center align
+'   test   '
+</code></pre>
+
+<ul>
+<li>Choose your character for padding. <code>'{:_&lt;10}'.format('test')</code></li>
+</ul>
+<pre><code class="python">&gt;&gt;&gt; '{:_&lt;10}'.format('test')
+'test______'
+
+</code></pre>
+
+<p><br>
+Further reading on string format method <a href="https://pyformat.info/">https://pyformat.info/</a> 
+<br></p>
+<h2 id="sysstdoutwrite">sys.stdout.write()</h2>
+<p>This could be used to write to standard output or consoles when print doesn’t seem to work.</p>
+<pre><code class="python">&gt;&gt;&gt; pack = '\x90\x32\x67\x70'
+&gt;&gt;&gt; sys.stdout.write(pack)
+�2gp&gt;&gt;&gt; 
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../conditionals_loops/index.html" class="btn btn-neutral float-right" title="Conditions & Loops">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../importing/index.html" class="btn btn-neutral" title="Importing"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../importing/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../conditionals_loops/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

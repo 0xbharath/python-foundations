@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Bharath(yamakira_)">
+  
+  <title>Functions - Python - Foundations</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Functions";
+    var mkdocs_page_input_path = "functions.md";
+    var mkdocs_page_url = "/functions/index.html";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Python - Foundations</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../index.html">Title</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Workshop intro</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../license/index.html">License</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../bigger_picture/index.html">Bigger picture</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../speakers/index.html">Speakers</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../workshop_settings/index.html">Workshop settings</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Course</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../language_intro/index.html">Language intro</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../modes/index.html">Modes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../syntax_styling/index.html">Syntax & Styling</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../objects/index.html">objects</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../introspection/index.html">Introspection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../strings/index.html">Strings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../data_structures/index.html">Data Structures</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../sorting/index.html">Sorting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="index.html">Functions</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#functions">Functions</a></li>
+                
+                    <li><a class="toctree-l4" href="#traditional-def-functions">Traditional def functions</a></li>
+                
+                    <li><a class="toctree-l4" href="#lambda-functions">Lambda functions</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../importing/index.html">Importing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../printing/index.html">Printing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../conditionals_loops/index.html">Conditions & Loops</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../comprehensions/index.html">Comprehensions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../regex/index.html">Regex</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../admin_utilities/index.html">Admin utilities</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../web_utilities/index.html">Web utilities</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../commandline_parsing/index.html">Commandine Parsing</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Epilogue</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../feedback/index.html">Feedback</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Exercises</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../log_parsing/index.html">Log parsing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mptrack/index.html">MP Track</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Python - Foundations</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Python Course &raquo;</li>
+        
+      
+    
+    <li>Functions</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="functions">Functions</h1>
+<p>There are two ways of defining functions in Python.</p>
+<ul>
+<li>Traditonal <code>def</code> functions.</li>
+<li>Lambda functions</li>
+</ul>
+<h2 id="traditional-def-functions">Traditional <code>def</code> functions</h2>
+<p><strong>def  function_name (param1, param2):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;indented code></strong></p>
+<ul>
+<li>The <code>def</code> keyword defines the function with its parameters within parentheses and its code indented.
+<br></li>
+<li>The first line of a function can be a documentation string (&ldquo;docstring&rdquo;) that describes what the function does(Not mandatory but recommended). A docstring of any object can be retrived using <code>object.__doc__</code>
+<br></li>
+<li>Variables defined in the function are local to that function.
+<br></li>
+<li>Python functions by default return variable type <code>None</code> unless otherwise mentioned.</li>
+</ul>
+<pre><code class="python"># Defines a &quot;repeat&quot; function that takes 2 arguments.
+def repeat(s, exclaim):
+    &quot;&quot;&quot;
+    Returns the string 's' repeated 3 times.
+    If exclaim is true, add exclamation marks.
+    &quot;&quot;&quot;
+
+    result = s + s + s # can also use &quot;s * 3&quot; which is faster (Why?)
+    if exclaim:
+        result = result + '!!!'
+    return result
+</code></pre>
+
+<p><br></p>
+<h2 id="lambda-functions">Lambda functions</h2>
+<p>Syntax: <strong>lambda arg1, arg2, &hellip;argN : expression using arguments</strong>.</p>
+<p align = 'center'>
+<img alt='lists2' style="display:block; margin:0 auto" alt="calling sorted with key=len" width="800" src='../img/lambda.png'>
+</p>
+
+<p><br>
+<br>
+- Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called &ldquo;lambda&rdquo;.<br>
+- Lambda functions take any number of arguments but only has one expression, the result of this expression is returned.<br></p>
+<pre><code class="python">&gt;&gt;&gt; def f (x): return x**2
+... 
+&gt;&gt;&gt; print f(8)
+64
+&gt;&gt;&gt; 
+&gt;&gt;&gt; g = lambda x: x**2
+&gt;&gt;&gt; 
+&gt;&gt;&gt; print g(8)
+64
+</code></pre>
+
+<ul>
+<li>Lambda functions can be used anywhere a function is expected, not necessary to assign it to a variable.<br></li>
+<li>You can pass lambda functions to other functions to do stuff(for example lambda function as key to sorted())<br></li>
+</ul>
+<pre><code class="python">mult3 = filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+</code></pre>
+
+<div class="admonition warning">
+<p class="admonition-title">Using Lambda</p>
+<p>Lambda funtions are good when they are short and as throw away functions. If you plan on doing anything remotely complex with it, put lambda away and define a real function.</p>
+</div>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../importing/index.html" class="btn btn-neutral float-right" title="Importing">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../sorting/index.html" class="btn btn-neutral" title="Sorting"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../sorting/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../importing/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

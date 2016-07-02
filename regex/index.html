@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Bharath(yamakira_)">
+  
+  <title>Regex - Python - Foundations</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Regex";
+    var mkdocs_page_input_path = "regex.md";
+    var mkdocs_page_url = "/regex/index.html";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Python - Foundations</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../index.html">Title</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Workshop intro</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../license/index.html">License</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../bigger_picture/index.html">Bigger picture</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../speakers/index.html">Speakers</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../workshop_settings/index.html">Workshop settings</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Course</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../language_intro/index.html">Language intro</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../modes/index.html">Modes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../syntax_styling/index.html">Syntax & Styling</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../objects/index.html">objects</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../introspection/index.html">Introspection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../strings/index.html">Strings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../data_structures/index.html">Data Structures</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../sorting/index.html">Sorting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../functions/index.html">Functions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../importing/index.html">Importing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../printing/index.html">Printing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../conditionals_loops/index.html">Conditions & Loops</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../comprehensions/index.html">Comprehensions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="index.html">Regex</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#regular-expression">/^[Reg]ular [Ex]pression$/</a></li>
+                
+                    <li><a class="toctree-l4" href="#basic-patterns">Basic Patterns</a></li>
+                
+                    <li><a class="toctree-l4" href="#basic-examples">Basic Examples</a></li>
+                
+                    <li><a class="toctree-l4" href="#repetition">Repetition</a></li>
+                
+                    <li><a class="toctree-l4" href="#leftmost-largest">Leftmost &amp; Largest</a></li>
+                
+                    <li><a class="toctree-l4" href="#emails-example">Emails Example</a></li>
+                
+                    <li><a class="toctree-l4" href="#square-brackets">Square Brackets</a></li>
+                
+                    <li><a class="toctree-l4" href="#group-extraction">Group Extraction</a></li>
+                
+                    <li><a class="toctree-l4" href="#findall">findall</a></li>
+                
+                    <li><a class="toctree-l4" href="#findall-and-groups">findall and Groups</a></li>
+                
+                    <li><a class="toctree-l4" href="#re-workflow-and-debug">RE Workflow and Debug</a></li>
+                
+                    <li><a class="toctree-l4" href="#options">Options</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../admin_utilities/index.html">Admin utilities</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../web_utilities/index.html">Web utilities</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../commandline_parsing/index.html">Commandine Parsing</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Epilogue</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../feedback/index.html">Feedback</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Exercises</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../log_parsing/index.html">Log parsing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mptrack/index.html">MP Track</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Python - Foundations</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Python Course &raquo;</li>
+        
+      
+    
+    <li>Regex</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="regular-expression">/^[Reg]ular [Ex]pression$/</h1>
+<ul>
+<li>Regular expressions are a powerful language for matching text patterns.</li>
+<li>The syntax of regular expressions is the same for all programming and script languages, e.g. Python, Perl, Java, SED, AWK etc.</li>
+<li>The Python &ldquo;re&rdquo; module provides regular expression support.
+<br></li>
+<li>
+<p>In Python a regular expression search is typically written as: &nbsp;<strong><code>match = re.search(pat, str)</code></strong></p>
+</li>
+<li>
+<p>The re.search() method takes a regular expression pattern and a string and searches for that pattern within the string. If the search is successful, search() returns a match object or None otherwise. Therefore, the search is usually immediately followed by an if-statement to test if the search succeeded.</p>
+</li>
+</ul>
+<pre><code class="python">str = 'an example word:cat!!'
+match = re.search(r'word:\w\w\w', str)
+
+# If-statement after search() tests if it succeeded
+  if match:                      
+    print 'found', match.group() ## 'found word:cat'
+  else:
+    print 'did not find'
+
+</code></pre>
+
+<h2 id="basic-patterns">Basic Patterns</h2>
+<p><em>Refer to reference documents directory for python pattern matching cheat sheets.</em></p>
+<p><strong>^</strong> matches the beginning of a string.<br>
+<strong>$</strong> matches the end of a string.<br>
+<strong>\b</strong> matches a word boundary.<br>
+<strong>\d</strong> matches any numeric digit.<br>
+<strong>\D</strong> matches any non-numeric character.<br>
+<strong>x?</strong> matches an optional x character (in other words, it matches an x zero or one times).<br>
+<strong>x*</strong> matches x zero or more times.<br>
+<strong>x+</strong> matches x one or more times.<br>
+<strong>x{n,m}</strong> matches an x character at least n times, but not more than m times.<br>
+<strong>(a|b|c)</strong> matches exactly one of a, b or c.<br>
+<strong>(x)</strong> in general is a remembered group. You can get the value of what matched by using the groups() method of the object returned by re.search.<br></p>
+<h2 id="basic-examples">Basic Examples</h2>
+<p><strong>Joke: what do you call a pig with three eyes? piiig!</strong></p>
+<p>The basic rules of regular expression search for a pattern within a string are:</p>
+<ul>
+<li>The search proceeds through the string from start to end, stopping at the first match found</li>
+<li>All of the pattern must be matched, but not all of the string</li>
+<li>If match = re.search(pat, str) is successful, match is not None and in particular match.group() is the matching text</li>
+</ul>
+<pre><code class="python">  ## Search for pattern 'iii' in string 'piiig'.
+  ## All of the pattern must match, but it may appear anywhere.
+  ## On success, match.group() is matched text.
+  match = re.search(r'iii', 'piiig') =&gt;  found, match.group() == &quot;iii&quot;
+  match = re.search(r'igs', 'piiig') =&gt;  not found, match == None
+
+  ## . = any char but \n
+  match = re.search(r'..g', 'piiig') =&gt;  found, match.group() == &quot;iig&quot;
+
+  ## \d = digit char, \w = word char
+  match = re.search(r'\d\d\d', 'p123g') =&gt;  found, match.group() == &quot;123&quot;
+  match = re.search(r'\w\w\w', '@@abcd!!') =&gt;  found, match.group() == &quot;abc&quot;
+</code></pre>
+
+<h2 id="repetition">Repetition</h2>
+<p>Things get more interesting when you use + and * to specify repetition in the pattern</p>
+<ul>
+<li><strong><code>+</code></strong> &ndash; 1 or more occurrences of the pattern to its left, e.g. &lsquo;i+&rsquo; = one or more i&rsquo;s</li>
+<li><strong><code>*</code></strong> &ndash; 0 or more occurrences of the pattern to its left</li>
+<li><strong><code>?</code></strong> &ndash; match 0 or 1 occurrences of the pattern to its left</li>
+</ul>
+<h2 id="leftmost-largest">Leftmost &amp; Largest</h2>
+<p>First the search finds the leftmost match for the pattern, and second it tries to use up as much of the string as possible <code>--</code> i.e. <code>+</code> and <code>*</code> go as far as possible (the <code>+</code> and <code>*</code> are said to be &ldquo;greedy&rdquo;).</p>
+<h3 id="repetition-examples">Repetition Examples</h3>
+<pre><code class="python">  ## i+ = one or more i's, as many as possible.
+  match = re.search(r'pi+', 'piiig') =&gt;  found, match.group() == &quot;piii&quot;
+
+  ## Finds the first/leftmost solution, and within it drives the +
+  ## as far as possible (aka 'leftmost and largest').
+  ## In this example, note that it does not get to the second set of i's.
+  match = re.search(r'i+', 'piigiiii') =&gt;  found, match.group() == &quot;ii&quot;
+
+  ## \s* = zero or more whitespace chars
+  ## Here look for 3 digits, possibly separated by whitespace.
+  match = re.search(r'\d\s*\d\s*\d', 'xx1 2   3xx') =&gt;  found, match.group() == &quot;1 2   3&quot;
+  match = re.search(r'\d\s*\d\s*\d', 'xx12  3xx') =&gt;  found, match.group() == &quot;12  3&quot;
+  match = re.search(r'\d\s*\d\s*\d', 'xx123xx') =&gt;  found, match.group() == &quot;123&quot;
+
+  ## ^ = matches the start of string, so this fails:
+  match = re.search(r'^b\w+', 'foobar') =&gt;  not found, match == None
+  ## but without the ^ it succeeds:
+  match = re.search(r'b\w+', 'foobar') =&gt;  found, match.group() == &quot;bar&quot;
+</code></pre>
+
+<h2 id="emails-example">Emails Example</h2>
+<p>Suppose you want to find the email address inside the string &lsquo;xyz alice-b@google.com purple monkey&rsquo;. We&rsquo;ll use this as a running example to demonstrate more regular expression features. Here&rsquo;s an attempt using the pattern <code>r'\w+@\w+'</code>:</p>
+<pre><code class="python">  str = 'purple alice-b@google.com monkey dishwasher'
+  match = re.search(r'\w+@\w+', str)
+  if match:
+    print match.group()  ## 'b@google'
+</code></pre>
+
+<p>The search does not get the whole email address in this case because the \w does not match the <code>'-'</code> or <code>'.'</code> in the address. We&rsquo;ll fix this using the regular expression features below.</p>
+<h2 id="square-brackets">Square Brackets</h2>
+<p>Square brackets can be used to indicate a set of chars, so <code>[abc]</code> matches &lsquo;a&rsquo; or &lsquo;b&rsquo; or &lsquo;c&rsquo;. The codes <code>\w</code>, <code>\s</code> etc. work inside square brackets too with the one exception that dot (.) just means a literal dot. For the emails problem, the square brackets are an easy way to add <code>'.'</code> and <code>'-'</code> to the set of chars which can appear around the @ with the pattern <code>r'[\w.-]+@[\w.-]+'</code> to get the whole email address:</p>
+<pre><code class="python">  match = re.search(r'[\w.-]+@[\w.-]+', str)
+  if match:
+    print match.group()  ## 'alice-b@google.com'
+
+</code></pre>
+
+<p>(More square-bracket features) You can also use a dash to indicate a range, so <code>[a-z]</code> matches all lowercase letters. To use a dash without indicating a range, put the dash last, e.g. <code>[abc-]</code>. An up-hat <code>(^)</code> at the start of a square-bracket set inverts it, so <code>[^ab]</code> means any char except &lsquo;a&rsquo; or &lsquo;b&rsquo;.</p>
+<h2 id="group-extraction">Group Extraction</h2>
+<p>The &ldquo;group&rdquo; feature of a regular expression allows you to pick out parts of the matching text. Suppose for the emails problem that we want to extract the username and host separately. To do this, add parenthesis ( ) around the username and host in the pattern, like this: <code>r'([\w.-]+)@([\w.-]+)'</code>. In this case, the parenthesis do not change what the pattern will match, instead they establish logical &ldquo;groups&rdquo; inside of the match text. On a successful search, match.group(1) is the match text corresponding to the 1st left parenthesis, and match.group(2) is the text corresponding to the 2nd left parenthesis. The plain match.group() is still the whole match text as usual.</p>
+<pre><code class="python">  str = 'purple alice-b@google.com monkey dishwasher'
+  match = re.search('([\w.-]+)@([\w.-]+)', str)
+  if match:
+    print match.group()   ## 'alice-b@google.com' (the whole match)
+    print match.group(1)  ## 'alice-b' (the username, group 1)
+    print match.group(2)  ## 'google.com' (the host, group 2)
+</code></pre>
+
+<p>A common workflow with regular expressions is that you write a pattern for the thing you are looking for, adding parenthesis groups to extract the parts you want.</p>
+<h2 id="findall">findall</h2>
+<p>findall() is probably the single most powerful function in the re module. Above we used re.search() to find the first match for a pattern. findall() finds <em>all</em> the matches and returns them as a list of strings, with each string representing one match.</p>
+<pre><code class="python">  ## Suppose we have a text with many email addresses
+  str = 'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'
+
+  ## Here re.findall() returns a list of all the found email strings
+  emails = re.findall(r'[\w\.-]+@[\w\.-]+', str) ## ['alice@google.com', 'bob@abc.com']
+  for email in emails:
+    # do something with each found email string
+    print email
+</code></pre>
+
+<h3 id="findall-with-files">findall With Files</h3>
+<p>For files, you may be in the habit of writing a loop to iterate over the lines of the file, and you could then call findall() on each line. Instead, let findall() do the iteration for you &ndash; much better! Just feed the whole file text into findall() and let it return a list of all the matches in a single step (recall that f.read() returns the whole text of a file in a single string):</p>
+<pre><code class="python">  # Open file
+  f = open('test.txt', 'r')
+  # Feed the file text into findall(); it returns a list of all the found strings
+  strings = re.findall(r'some pattern', f.read())
+</code></pre>
+
+<h2 id="findall-and-groups">findall and Groups</h2>
+<p>The parenthesis ( ) group mechanism can be combined with findall(). If the pattern includes 2 or more parenthesis groups, then instead of returning a list of strings, findall() returns a list of <em>tuples</em>. Each tuple represents one match of the pattern, and inside the tuple is the group(1), group(2) .. data. So if 2 parenthesis groups are added to the email pattern, then findall() returns a list of tuples, each length 2 containing the username and host, e.g. (&lsquo;alice&rsquo;, &lsquo;google.com&rsquo;).</p>
+<pre><code class="python">  str = 'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'
+  tuples = re.findall(r'([\w\.-]+)@([\w\.-]+)', str)
+  print tuples  ## [('alice', 'google.com'), ('bob', 'abc.com')]
+  for tuple in tuples:
+    print tuple[0]  ## username
+    print tuple[1]  ## host
+</code></pre>
+
+<p>Once you have the list of tuples, you can loop over it to do some computation for each tuple. If the pattern includes no parenthesis, then findall() returns a list of found strings as in earlier examples. If the pattern includes a single set of parenthesis, then findall() returns a list of strings corresponding to that single group. (Obscure optional feature: Sometimes you have paren ( ) groupings in the pattern, but which you do not want to extract. In that case, write the parens with a ?: at the start, e.g. (?: ) and that left paren will not count as a group result.)</p>
+<h2 id="re-workflow-and-debug">RE Workflow and Debug</h2>
+<p>Regular expression patterns pack a lot of meaning into just a few characters , but they are so dense, you can spend a lot of time debugging your patterns. Set up your runtime so you can run a pattern and print what it matches easily, for example by running it on a small test text and printing the result of findall(). If the pattern matches nothing, try weakening the pattern, removing parts of it so you get too many matches. When it&rsquo;s matching nothing, you can&rsquo;t make any progress since there&rsquo;s nothing concrete to look at. Once it&rsquo;s matching too much, then you can work on tightening it up incrementally to hit just what you want.</p>
+<h2 id="options">Options</h2>
+<p>The re functions take options to modify the behavior of the pattern match. The option flag is added as an extra argument to the search() or findall() etc., e.g. re.search(pat, str, re.IGNORECASE).</p>
+<ul>
+<li><strong>IGNORECASE</strong> - ignore upper/lowercase differences for matching, so &lsquo;a&rsquo; matches both &lsquo;a&rsquo; and &lsquo;A&rsquo;.<br></li>
+<li><strong>DOTALL</strong> - allow dot (.) to match newline &ndash; normally it matches anything but newline. This can trip you up &ndash; you think <code>.*</code> matches everything, but by default it does not go past the end of a line. Note that <code>\s</code> (whitespace) includes newlines, so if you want to match a run of whitespace that may include a newline, you can just use <code>\s*</code></li>
+<li><strong>MULTILINE</strong> - Within a string made of many lines, allow <code>^</code> and <code>$</code> to match the start and end of each line. Normally <code>^/$</code> would just match the start and end of the whole string.</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../admin_utilities/index.html" class="btn btn-neutral float-right" title="Admin utilities">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../comprehensions/index.html" class="btn btn-neutral" title="Comprehensions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../comprehensions/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../admin_utilities/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

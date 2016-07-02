@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Bharath(yamakira_)">
+  
+  <title>Conditions & Loops - Python - Foundations</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Conditions & Loops";
+    var mkdocs_page_input_path = "conditionals_loops.md";
+    var mkdocs_page_url = "/conditionals_loops/index.html";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Python - Foundations</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../index.html">Title</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Workshop intro</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../license/index.html">License</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../bigger_picture/index.html">Bigger picture</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../speakers/index.html">Speakers</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../workshop_settings/index.html">Workshop settings</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Course</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../language_intro/index.html">Language intro</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../modes/index.html">Modes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../syntax_styling/index.html">Syntax & Styling</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../objects/index.html">objects</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../introspection/index.html">Introspection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../strings/index.html">Strings</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../data_structures/index.html">Data Structures</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../sorting/index.html">Sorting</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../functions/index.html">Functions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../importing/index.html">Importing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../printing/index.html">Printing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="index.html">Conditions & Loops</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#ifelifelse">If/elif/else</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#while-loop">While loop</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#for-loop">For Loop</a></li>
+                
+                    <li><a class="toctree-l4" href="#for-in-construct">FOR - IN construct</a></li>
+                
+                    <li><a class="toctree-l4" href="#range-xrange">Range &amp; Xrange</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../comprehensions/index.html">Comprehensions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../regex/index.html">Regex</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../admin_utilities/index.html">Admin utilities</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../web_utilities/index.html">Web utilities</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../commandline_parsing/index.html">Commandine Parsing</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Epilogue</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../feedback/index.html">Feedback</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Exercises</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../log_parsing/index.html">Log parsing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mptrack/index.html">MP Track</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Python - Foundations</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Python Course &raquo;</li>
+        
+      
+    
+    <li>Conditions & Loops</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="ifelifelse">If/elif/else</h2>
+<ul>
+<li>Any value can be used as an if-test. The &ldquo;zero&rdquo; values all count as false: None, 0, empty string, empty list, empty dictionary.</li>
+<li>Comparision operations: ==, !=, &lt;, &lt;=, &gt;, &gt;=</li>
+<li>The boolean operators are the spelled out words <em>and</em>, <em>or</em>, <em>not</em> (Python does not use the C-style &amp;&amp; || !).</li>
+</ul>
+<pre><code class="python">
+return = scan_target('10.5.0.6')
+if return == 0:
+    print &quot;[+] Scan sucessful!!&quot;
+    print packet
+elif return ==1:
+    print &quot;[-] Scan unsucessful!!&quot;
+    print &quot;[*] Inspect with wireshark&quot;
+else:
+    print &quot;[!] Unknown error&quot;
+
+</code></pre>
+
+<pre><code class="python">  if speed &gt;= 80:
+    print 'License and registration please'
+    if mood == 'terrible' or speed &gt;= 100:
+      print 'You have the right to remain silent.'
+    elif mood == 'bad' or speed &gt;= 90:
+      print &quot;I'm going to have to write you a ticket.&quot;
+      write_ticket()
+    else:
+      print &quot;Let's try to keep it under 80 ok?
+</code></pre>
+
+<h2 id="while-loop">While loop</h2>
+<p>Python also has the standard while-loop, and the <em>break</em> and <em>continue</em> statements work as in C++ and Java, altering the course of the innermost loop. The above for/in loops solves the common case of iterating over every element in a list, but the while loop gives you total control over the index numbers. Here&rsquo;s a while loop which accesses every 3rd element in a list:</p>
+<pre><code class="python">  ## Access every 3rd element in a list
+  i = 0
+  while i &lt; len(a):
+    print a[i]
+    i = i + 3
+</code></pre>
+
+<h2 id="for-loop">For Loop</h2>
+<h3 id="for-in-construct">FOR - IN construct</h3>
+<ul>
+<li>Python&rsquo;s <em>for</em> and <em>in</em> constructs are extremely useful.</li>
+<li>The <em>for</em> construct &ndash; <strong><code>for var in list</code></strong> &ndash; is an easy way to look at each element in a list (or other collection). Do not add or remove from the list during iteration.</li>
+</ul>
+<pre><code class="python">  squares = [1, 4, 9, 16]
+  sum = 0
+  for num in squares:
+    sum += num
+  print sum  ## 30
+</code></pre>
+
+<ul>
+<li>The <em>in</em> construct on its own is an easy way to test if an element appears in a list (or other collection) &ndash; <strong><code>value in collection</code></strong> &ndash; tests if the value is in the collection, returning True/False.</li>
+</ul>
+<pre><code class="python">  list = ['larry', 'curly', 'moe']
+  if 'curly' in list:
+    print 'yay'
+</code></pre>
+
+<h3 id="range-xrange">Range &amp; Xrange</h3>
+<ul>
+<li>Python for loop iterates over a range of numbers, list of elements.</li>
+<li>The <strong>range(n)</strong> function yields the numbers 0, 1, &hellip; n-1, and range(a, b) returns a, a+1, &hellip; b-1 </li>
+</ul>
+<pre><code class="python">&gt;&gt;&gt; from socket import *
+&gt;&gt;&gt; open_ports = [21, 23, 25, 80, 139, 8080]
+&gt;&gt;&gt; 
+&gt;&gt;&gt; for a in xrange(len(open_ports)):
+...     print &quot;[+] Port num: {} {} is open.&quot;.format(open_ports[a], getservbyport(open_ports[a]))
+... 
+[+] Port num: 21 ftp is open.
+[+] Port num: 23 telnet is open.
+[+] Port num: 25 smtp is open.
+[+] Port num: 80 http is open.
+[+] Port num: 139 netbios-ssn is open.
+[+] Port num: 8080 http-alt is open.
+&gt;&gt;&gt;
+</code></pre>
+
+<ul>
+<li>There is a variant <strong>xrange()</strong> which avoids the cost of building the whole list for performance sensitive cases (in Python 3000, range() will have the good performance behavior and you can forget about xrange().</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../comprehensions/index.html" class="btn btn-neutral float-right" title="Comprehensions">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../printing/index.html" class="btn btn-neutral" title="Printing"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../printing/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../comprehensions/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
