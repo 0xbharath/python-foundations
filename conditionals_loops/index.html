@@ -8,7 +8,7 @@
   
   <meta name="author" content="Bharath(yamakira_)">
   
-  <title>Conditions & Loops - Python - Foundations</title>
+  <title>Conditionals & Loops - Python - Foundations</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -23,7 +23,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Conditions & Loops";
+    var mkdocs_page_name = "Conditionals & Loops";
     var mkdocs_page_input_path = "conditionals_loops.md";
     var mkdocs_page_url = "/conditionals_loops/index.html";
   </script>
@@ -181,7 +181,7 @@
         
             
     <li class="toctree-l1 current">
-        <a class="current" href="index.html">Conditions & Loops</a>
+        <a class="current" href="index.html">Conditionals & Loops</a>
         
             <ul>
             
@@ -191,7 +191,7 @@
                 <li class="toctree-l3"><a href="#while-loop">While loop</a></li>
                 
             
-                <li class="toctree-l3"><a href="#for-loop">For Loop</a></li>
+                <li class="toctree-l3"><a href="#for-statement">For statement</a></li>
                 
                     <li><a class="toctree-l4" href="#for-in-construct">FOR - IN construct</a></li>
                 
@@ -217,23 +217,24 @@
     </li>
 
         
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Exercises</span></li>
+
+        
             
     <li class="toctree-l1 ">
-        <a class="" href="../admin_utilities/index.html">Admin utilities</a>
+        <a class="" href="../basic_exercises/index.html">Basic exercises</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../web_utilities/index.html">Web utilities</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../commandline_parsing/index.html">Commandine Parsing</a>
+        <a class="" href="../log_parsing/index.html">Log parsing</a>
         
     </li>
 
@@ -248,29 +249,7 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../feedback/index.html">Feedback</a>
-        
-    </li>
-
-        
-    </ul>
-<li>
-          
-            <li>
-    <ul class="subnav">
-    <li><span>Python Exercises</span></li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../log_parsing/index.html">Log parsing</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../mptrack/index.html">MP Track</a>
+        <a class="" href="../feedback/index.html">Feedback & Credits</a>
         
     </li>
 
@@ -304,7 +283,7 @@
         
       
     
-    <li>Conditions & Loops</li>
+    <li>Conditionals & Loops</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -321,8 +300,22 @@
                 <h2 id="ifelifelse">If/elif/else</h2>
 <ul>
 <li>Any value can be used as an if-test. The &ldquo;zero&rdquo; values all count as false: None, 0, empty string, empty list, empty dictionary.</li>
-<li>Comparision operations: ==, !=, &lt;, &lt;=, &gt;, &gt;=</li>
 <li>The boolean operators are the spelled out words <em>and</em>, <em>or</em>, <em>not</em> (Python does not use the C-style &amp;&amp; || !).</li>
+</ul>
+<p>Here is the list of available conditional operators.</p>
+<ul>
+<li><code>==</code> equal to</li>
+<li><code>!=</code> not equal to</li>
+<li><code>&lt;</code> less than</li>
+<li><code>&gt;</code> greater than</li>
+<li><code>&lt;=</code> less than or equal to</li>
+<li><code>&gt;=</code> greater than or equal to</li>
+</ul>
+<p>There are few logical operators to combine boolean values.</p>
+<ul>
+<li><code>a and b</code> is <code>True</code> only if both <code>a</code> and <code>b</code> are True.</li>
+<li><code>a or b</code> is True if either <code>a</code> or <code>b</code> is True.</li>
+<li><code>not a</code> is True only if <code>a</code> is False.</li>
 </ul>
 <pre><code class="python">
 return = scan_target('10.5.0.6')
@@ -357,7 +350,8 @@ else:
     i = i + 3
 </code></pre>
 
-<h2 id="for-loop">For Loop</h2>
+<h2 id="for-statement">For statement</h2>
+<p>Python provides for statement to iterate over a list. A for statement executes the specified block of code for every element in a list.</p>
 <h3 id="for-in-construct">FOR - IN construct</h3>
 <ul>
 <li>Python&rsquo;s <em>for</em> and <em>in</em> constructs are extremely useful.</li>

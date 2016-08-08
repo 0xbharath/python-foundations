@@ -181,7 +181,7 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../conditionals_loops/index.html">Conditions & Loops</a>
+        <a class="" href="../conditionals_loops/index.html">Conditionals & Loops</a>
         
     </li>
 
@@ -200,23 +200,35 @@
     </li>
 
         
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Python Exercises</span></li>
+
+        
             
     <li class="toctree-l1 ">
-        <a class="" href="../admin_utilities/index.html">Admin utilities</a>
+        <a class="" href="../basic_exercises/index.html">Basic exercises</a>
         
     </li>
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../web_utilities/index.html">Web utilities</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="index.html">Log parsing</a>
         
-    </li>
-
-        
+            <ul>
             
-    <li class="toctree-l1 ">
-        <a class="" href="../commandline_parsing/index.html">Commandine Parsing</a>
+                <li class="toctree-l3"><a href="#log-parsing">LOG Parsing</a></li>
+                
+                    <li><a class="toctree-l4" href="#find-all-the-unique-clients-u">Find all the unique clients -u</a></li>
+                
+                    <li><a class="toctree-l4" href="#sort-clients-by-number-of-requests-t">Sort clients by number of requests -t</a></li>
+                
+            
+            </ul>
         
     </li>
 
@@ -231,38 +243,7 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../feedback/index.html">Feedback</a>
-        
-    </li>
-
-        
-    </ul>
-<li>
-          
-            <li>
-    <ul class="subnav">
-    <li><span>Python Exercises</span></li>
-
-        
-            
-    <li class="toctree-l1 current">
-        <a class="current" href="index.html">Log parsing</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#log-parsing">LOG Parsing</a></li>
-                
-                    <li><a class="toctree-l4" href="#apache-log-parsing">Apache log parsing</a></li>
-                
-            
-            </ul>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../mptrack/index.html">MP Track</a>
+        <a class="" href="../feedback/index.html">Feedback & Credits</a>
         
     </li>
 
@@ -311,11 +292,42 @@
             <div class="section">
               
                 <h1 id="log-parsing">LOG Parsing</h1>
-<h2 id="apache-log-parsing">Apache log parsing</h2>
-<p><strong>Task I</strong><br>
-- Extract the client IP, Request type and bytes served fields using regex from the apache access log.<br><br>
-<strong>Task II</strong><br>
-- Read apache access log and count number of times each individual IP address of a client has occured in the log file.<br></p>
+<p><strong>Write a program that takes filename as input(apache logfile), depending on the command line arguments(-u or -t) writes to a file: <br>
+A. The list of all unique clients in the logfile to a text file (-u)<br>
+B. The list of all the unique clients to a text file sorted by number of requests they made. (-t)</strong> <br></p>
+<p><br></p>
+<h3 id="find-all-the-unique-clients-u">Find all the unique clients <code>-u</code></h3>
+<p><br>
+Given, an apache logfile and command line option <code>-u</code> Find all the unique clients in the file and write the list of these clients to a file.  <br></p>
+<p>Example: </p>
+<pre><code class="bash">$ python logparser.py -u access.log    #Should write all the unique clients to a file
+[*] created unique_clients.txt
+
+$ ./cat.py unique_clients.txt   #Using our previous cat program to extract contents
+unique_clients_get.txt
+----------------------
+10.54.89.11     
+179.5.66.24     
+iktel.cabel.net 
+mxt.dsl.net     
+</code></pre>
+
+<p><strong>Hints:</strong></p>
+<ul>
+<li>Understand the apache log entries pattern and use regex to extract clients addresses(There are IPs and hostnames, choose your regex to include both)</li>
+<li>set is a data structure that contains only unique elements.</li>
+</ul>
+<h3 id="sort-clients-by-number-of-requests-t">Sort clients by number of requests <code>-t</code></h3>
+<p>If the user provides a command line option <code>-t</code> count the number of requests each unique client has made and sort them by number they made and write the sorted data to a file.</p>
+<pre><code class="python">$ python logparser.py -t access.log #Should write all the unique clients, number of requests they made(sorted by requests) to a file
+[*] created clients_requests.txt
+
+$ ./cat.py clients_requests.txt     #Using our previous cat program to extract contents
+10.54.89.11     made 652   requests
+179.5.66.24     made 489   requests
+mxt.dsl.net     made 168   requests
+iktel.cabel.net made 52    requests
+</code></pre>
               
             </div>
           </div>
@@ -323,10 +335,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../mptrack/index.html" class="btn btn-neutral float-right" title="MP Track">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../feedback/index.html" class="btn btn-neutral float-right" title="Feedback & Credits">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../feedback/index.html" class="btn btn-neutral" title="Feedback"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../basic_exercises/index.html" class="btn btn-neutral" title="Basic exercises"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -354,10 +366,10 @@
           <a href="https://github.com/yamakira/Python-Foundations" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../feedback/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../basic_exercises/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../mptrack/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../feedback/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
