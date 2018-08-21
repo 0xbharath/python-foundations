@@ -4,7 +4,7 @@
 Version 0.1 <br>
 This class was taught at Null: Open Security Community,Bangalore in Aug, 2016. <br>
 The content is licensed under GPL4 BY-SA license. <br>
-The notes is hosted at https://yamakira.github.io/Python-Foundations. <br>
+The notes is hosted at https://yamakira.github.io/python-foundations. <br>
 
 
 ## Overview & Objective:
